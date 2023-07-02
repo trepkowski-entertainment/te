@@ -1,0 +1,35 @@
+
+@import './../../global.module.scss';
+
+
+
+
+    .head__divBtnMenu {
+        position: relative;
+        @include tablet {
+            display: none;
+        }
+    }
+    
+
+    .head__menuList {
+        
+        background-color: red;
+
+        position: absolute;
+        // top: 0;
+        left: 0;
+        right: 0;
+        // bottom: 0;
+        // // background-color: rgba(0, 0, 0, 0.5); /* Przezroczyste tło */
+        // z-index: 999; /* Wyświetlaj na wierzchu */
+        // /* Dodatkowe style */
+    }
+
+
+@media (min-width: 768px) {
+    .head__divBtnMenu {
+        display: none;
+    }
+    
+}

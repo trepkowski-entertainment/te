@@ -1,0 +1,31 @@
+@import '../global.module.scss';
+
+.foot__div {
+    width: 100%;
+    // height: 80px;
+    background-color: $footerBackground;
+}
+
+.foot__list {
+    // background-color: black;
+    list-style: none;
+    padding: 0;
+    color: pink;
+    display: flex;
+    // flex-direction: column;
+    gap: 20px;
+
+    li {
+        background-color: aquamarine;
+        margin: 0 auto;
+        // uwaga na magrin auto//
+    }
+    h4 {
+        margin: 0;
+    }
+    p {
+        margin: 0;
+    }
+}
+    
+    
