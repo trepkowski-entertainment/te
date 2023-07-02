@@ -11,12 +11,13 @@ import {  MobileMenu } from "./components/header/MobileMenu/MobileMenu"
 import { Logo } from "./components/header/Logo/Logo"
 import { ButtonsMenu } from "./components/header/ButtonsMenu/ButtonsMenu"
 import { Cards } from "./components/mains/homePage/Cards/Cards"
+import { HeadDivCont } from "./components/header/HeadDivCont/HeadDivCont"
 
 import elhome from './components/data/elhome.json'
-import cardAboutAgency from './components/data/cardAboutAgency.json'
+import cardMusicStudio from './components/data/cardMusicStudio.json'
 import contactOffice from './components/data/contactOffice.json'
 import contactMusicStudio from './components/data/contactMusicStudio.json'
-import { HeadDivCont } from "./components/header/HeadDivCont/HeadDivCont"
+import aboutSection from './components/data/aboutSection.json'
 
 
 
@@ -34,11 +35,14 @@ export const AppTe = () => {
                 </Container>
             </Header>
             <HomePage>
-                {/* <Section>
+                <Section>
                     <Container>
-                        <AboutSection />
+                        <AboutSection 
+                        p1={aboutSection.p1}
+                        p2={aboutSection.p2}
+                        p3={aboutSection.p3}/>
                     </Container>
-                </Section> */}
+                </Section>
                 <Section background={"cardSection"}>
                     <Container>
                         <Cards>
@@ -47,11 +51,11 @@ export const AppTe = () => {
                             subtitle={elhome.subtitle}
                             paragraf={elhome.paragraf} />
                             <CardElement 
-                            title={cardAboutAgency.title}
-                            subtitle={cardAboutAgency.subtitle}
-                            paragraf={cardAboutAgency.paragraf}
-                            modalTitle={cardAboutAgency.modal.modalTitle}
-                            modalDescription={cardAboutAgency.modal.modalDescription} />
+                            title={cardMusicStudio.title}
+                            subtitle={cardMusicStudio.subtitle}
+                            paragraf={cardMusicStudio.paragraf}
+                            modalTitle={cardMusicStudio.modal.modalTitle}
+                            modalDescription={cardMusicStudio.modal.modalDescription} />
                         </Cards>
                         </Container>
                 </Section>
