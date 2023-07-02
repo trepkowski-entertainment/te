@@ -34,11 +34,11 @@ export const AppTe = () => {
                 </Container>
             </Header>
             <HomePage>
-                <Section>
+                {/* <Section>
                     <Container>
                         <AboutSection />
                     </Container>
-                </Section>
+                </Section> */}
                 <Section background={"cardSection"}>
                     <Container>
                         <Cards>
