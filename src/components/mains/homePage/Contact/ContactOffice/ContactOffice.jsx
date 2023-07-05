@@ -7,7 +7,8 @@ import { ModalForm } from '../ModalForm/ModalForm'
 
 
 
-export const ContactOffice = ({ name, email, tel, add, form, btnFormName, formSrc}) => {
+
+export const ContactOffice = ({ header, name, email, tel, add, form, btnFormName, formSrc, aPar1, aPar2, aPar3, timeP1, timeP2, timeP3, timeP4}) => {
 
     const [isModalOpen, setIsModalOpen] = useState(false)
 
@@ -19,15 +20,36 @@ export const ContactOffice = ({ name, email, tel, add, form, btnFormName, formSr
         setIsModalOpen(false)
     }
 
+    
+
 
     return(
         <div className={styles.contactDiv}>
-            <h3>{name}</h3>
-            <div>
-                <p>Email: {email}</p>
-                <p>Tel: {tel}</p>
-                <p>{add}</p>
-                <p>{form}</p>
+            <div className={styles.contactDiv__divH3}>
+            <h3 className={styles.contactDiv__h3}>{header}</h3>
+            </div>
+            <div className={styles.contactDiv__divName}>
+                <h4 className={styles.contactDiv__h4}>{name}</h4>
+                <p className={styles.contactDiv__paragraf}>{aPar1}</p>
+                <p className={styles.contactDiv__paragraf}>{aPar2}</p>
+                <p className={styles.contactDiv__paragraf}>{aPar3}</p>
+            </div>
+            <div className={styles.contactDiv__divTime}>
+                <h4 className={styles.contactDiv__h4}>{timeP1}</h4>
+                <p className={styles.contactDiv__paragraf}>{timeP2}</p>
+                <h4 className={styles.contactDiv__h4}>{timeP3}</h4>
+                <p className={styles.contactDiv__paragraf}>{timeP4}</p>
+            </div>
+            <div className={styles.contactDiv__divContact}>
+                <p className={styles.contactDiv__paragraf}>
+                    <a className={styles.contactDiv__link}
+                    href="telto:{tel}">{tel}</a>
+                </p>
+                <p className={styles.contactDiv__paragraf}>
+                    <a className={styles.contactDiv__link}
+                    href="mailto:{mail}">{email}</a>
+                </p>
+                
             </div>
          
             <button className={styles.btnForm} onClick={handleOpenModal}>{btnFormName}</button>
@@ -43,7 +65,8 @@ export const ContactOffice = ({ name, email, tel, add, form, btnFormName, formSr
                     height="100%"
                     frameBorder="0"
                 ></iframe>
-            </ModalForm>)}
+            </ModalForm>
+            )}
         </div>
     )
 }

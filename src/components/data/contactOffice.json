@@ -1,9 +1,21 @@
 {
-    "name": "Office Contact",
+    "header": "Kontakt biuro",
+    "name": "Artistic Agency",
+    "about": {
+        "par1": "Oprawa muzyczna uroczystości",
+        "par2": "Konsultacje ślubne oraz weselne",
+        "par3": "Organizacja uroczystości"
+    },
+    "time": {
+        "p1": "Poniedziałek - Piątek",
+        "p2": "10:00 - 15:00",
+        "p3": "Sobota - Niedziela",
+        "p4": "10:00 - 13:00"
+    },
     "email": "trepkowski.entertainment@gmail.com",
     "tel": "737-927-893",
-    "add": "Jesteśmy otwarci: pn-pt",
-    "form": "src",
     "btnFormName": "Formularz kontaktowy",
-    "formSrc": "https://docs.google.com/forms/d/e/1FAIpQLSfzSGQoh_8Tc67uS6KAD3ArFcmq0QAyEDtPidC-ft8mFloQDQ/viewform?usp=sf_link"
+    "formSrc": "https://docs.google.com/forms/d/e/1FAIpQLSfzSGQoh_8Tc67uS6KAD3ArFcmq0QAyEDtPidC-ft8mFloQDQ/viewform?usp=sf_link",
+    "add": "Jesteśmy otwarci: pn-pt",
+    "form": "src"
 }

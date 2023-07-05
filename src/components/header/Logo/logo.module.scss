@@ -1,18 +1,38 @@
-
+@import '../../global.module.scss';
 
 .logoDiv {
     // width: 30px;
     // height: 30px;
     background-color: aqua;
     display: flex;
+    align-items: center;
     
 }
 
 .logoImg {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
+
+    @include tablet {
+        width: 40px;
+        height: 40px;
+
+    }
+    @include desktop {
+        width: 60px;
+        height: 60px;
+
+    }
 }
 
 .logoH1 {
-    font-size: 12px;
+    margin-left: 15px;
+
+    font-family: $fontThrd;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+
+
+    @include tablet {}
+    @include desktop {}
 }

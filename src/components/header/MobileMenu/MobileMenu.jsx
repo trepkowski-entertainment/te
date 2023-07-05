@@ -1,6 +1,8 @@
 
-import React, {useState, useEffect} from "react"
+import React, {useState} from "react"
 import styles from './mobileMenu.module.scss'
+import { MobileMenuContent } from "./MobileMenuContent";
+import menuSvg from './bass-clef-vector.jpg'
 
 
 
@@ -9,32 +11,26 @@ export const MobileMenu = () => {
     const [isMenuOpen, setMenuOpen] = useState(false);
 
     const toggleMenu = () => {
-        setMenuOpen(!isMenuOpen)
+        setMenuOpen(true)
     }
 
-    const handleMenuOutsideClick = (event) => {
-        if (!event.target.closest('.menu')) {
-          setMenuOpen(false);
-        }
-      };
-    
-    //   useEffect(() => {
-    //     document.addEventListener('click', handleMenuOutsideClick);
-    
-    //     return () => {
-    //       document.removeEventListener('click', handleMenuOutsideClick);
-    //     };
-    //   }, []);
+    const closeMenu = () => {
+        setMenuOpen(false)
+    }
+
+
 
     return (
             <div className={styles.head__divBtnMenu}>
-                <button onClick={toggleMenu} >menu</button>
+                <img onClick={toggleMenu} className={styles.head__imgBtnMenu} src={menuSvg} alt='logo'/>
+                
                 {isMenuOpen && (
-                    <ul className={styles.head__menuList}>
-                        <li><p>opoopo</p></li>
-                        <li><p>opoopo</p></li>
-                        <li><p>opoopo</p></li>
-                    </ul>
+                    <div>
+                        {/* <button onClose={closeMenu}>x</button> */}
+                        <MobileMenuContent onClose={closeMenu} />
+                    </div>
+                    
+                    
                 )}
             </div>
         

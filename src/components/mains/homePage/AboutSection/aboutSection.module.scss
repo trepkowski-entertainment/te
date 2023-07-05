@@ -2,4 +2,15 @@
 
 .aboutDiv {
     font-family: $czcionkaTest;
+    background-color: green;
+    margin: 20px;
+    border-radius: 8px;
+    text-align: center;
+
+    &__h3 {
+        letter-spacing: 1px;
+    }
+    &__p {
+        font-family: $fontThrd;
+    }
 }

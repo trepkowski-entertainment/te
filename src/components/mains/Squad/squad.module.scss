@@ -1,0 +1,28 @@
+
+
+/// globals ////
+/// 
+
+
+.squad {
+    
+    
+    &__officeDiv {
+
+    }
+
+    &__card {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    // &__cardMentors {
+    //     display: flex;
+    //     justify-content: space-around;
+    //     flex-wrap: wrap;
+    //     gap: 20px;
+    // }
+    
+}

@@ -5,23 +5,32 @@
 
 
     .head__divBtnMenu {
-        position: relative;
+        // position: relative;
+        display: flex;
         @include tablet {
             display: none;
         }
     }
     
+    .head__imgBtnMenu {
+        width: 20px;
+       
+    }
 
     .head__menuList {
         
         background-color: red;
 
-        position: absolute;
+        // width: 80%;
+
+
+        // position: absolute;
         // top: 0;
-        left: 0;
-        right: 0;
+        // left: 0;
+        // right: 0;
         // bottom: 0;
-        // // background-color: rgba(0, 0, 0, 0.5); /* Przezroczyste tło */
+        // background-color: rgba(0, 0, 0, 0.5);
+         /* Przezroczyste tło */
         // z-index: 999; /* Wyświetlaj na wierzchu */
         // /* Dodatkowe style */
     }
@@ -33,3 +42,35 @@
     }
     
 }
+
+
+
+
+//================//////////====================/////////////////=====//
+
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    // align-items: center;
+    // justify-content: center;
+  }
+  
+  .modalContent {
+    background-color: aqua;
+    width: 70%;
+
+  }
+
+  
+
+  
+  .modalContent button {
+    margin-top: 10px;
+  }

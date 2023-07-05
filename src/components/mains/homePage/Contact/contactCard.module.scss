@@ -8,20 +8,76 @@
     justify-content: space-around;
 }
 
-.btnForm {
-    margin-bottom: 20px;
-}
 
+
+///  box-shadow: [położenie] [przesunięcie poziome] [przesunięcie pionowe] [rozmazanie] [kolor];
+ 
 
 .contactDiv {
     background-color: hotpink;
-    width: 280px;
+    width: 260px;
     // height: 320px;
     border-radius: 4px;
+    box-shadow: 5px -5px 5px 0 rgb(31, 29, 29);
+
+    font-size: 12px;
+    font-family: $fontSnd;
     @include tablet {
         width: 320px;
     }
+
+
+    &__divH3 {
+        // display: inline;
+        // padding: 5px;
+        
+        background-color: rgb(145, 99, 67);
+        
+    }
+
+    &__h3 {
+        // display: inline;
+        background-color: aquamarine;
+        text-align: center;
+        width: 140px;
+        border-radius: 4px;
+        // padding:1px;
+        letter-spacing: 1.5px;
+        color: $colorWhite;
+    }
+
+    &__divName {
+        border-bottom: $borderBottomOne;
+    }
+
+    &__h4 {
+        letter-spacing: 1px;
+    }
+
+    &__paragraf {
+        font-family: $fontThrd;
+    }
+    &__link {
+        text-decoration: none;
+        font-family: $fontFirst;
+        color:brown;
+    }
+
+    &__divTime{
+        border-bottom: $borderBottomOne;
+    }
+
+
+    &__divContact{
+        border-bottom: $borderBottomOne;
+    }
 }
 
-
+.btnForm {
+    margin: 20px 0 20px 0;
+    font-family: $fontFirst;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    
+}
 
