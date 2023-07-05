@@ -10,13 +10,14 @@ import { Container } from "./components/Container/Container"
 import {  MobileMenu } from "./components/header/MobileMenu/MobileMenu"
 import { Logo } from "./components/header/Logo/Logo"
 import { ButtonsMenu } from "./components/header/ButtonsMenu/ButtonsMenu"
-import { HeadDivCont } from "./components/header/HeadDivCont/HeadDivCont"
+
 import { LoaderStart } from "./components/LoaderStart/LoaderStart"
 import { Route, Routes } from "react-router-dom"
 
 import { ContactPage } from "./components/mains/contactPage/contactPage"
 import { Squad } from "./components/mains/Squad/Squad"
 import { SquadDescription } from "./components/mains/Squad/SquadCard/SquadDescription/SquadDescription"
+import { Section } from "./components/mains/Section/Section"
 
 
 
@@ -42,15 +43,15 @@ export const AppTe = () => {
             {loading ? (<LoaderStart /> 
             ) : (
                 <>
-            <Header>
+            <Section>
                 <Container>
-                    <HeadDivCont>
+                    <Header>
                         <Logo />
                         <ButtonsMenu />
                         <MobileMenu />
-                    </HeadDivCont>
+                    </Header>
                 </Container>
-            </Header>
+            </Section>
             <Routes>
                 <Route path="*" element={<HomePage />} />
                 <Route path="/" element={<HomePage/>}/>

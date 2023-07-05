@@ -17,6 +17,7 @@ import cardMusicStudio from './../../data/cardMusicStudio.json'
 import contactOffice from './../../data/contactOffice.json'
 import contactMusicStudio from './../../data/contactMusicStudio.json'
 import aboutSection from './../../data/aboutSection.json'
+import { SquadOnDesk } from '../SquadOnDesk/SquadOnDesk'
 
 
 export const HomePage = () => {
@@ -49,6 +50,9 @@ export const HomePage = () => {
                     </Cards>
                 </Container>
             </Section>
+
+            <SquadOnDesk />
+
             <Section>
                 <Container>
                     <ContactCard>
