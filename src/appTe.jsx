@@ -53,7 +53,7 @@ export const AppTe = () => {
                 </Container>
             </Section>
             <Routes>
-                {/* <Route path="*" element={<HomePage />} /> */}
+                <Route path="*" element={<HomePage />} />
                 <Route path="/" element={<HomePage/>}/>
                 <Route path="/contact-page" element={<ContactPage/>}/>
                 <Route path='/squad' element={<Squad/>}>
