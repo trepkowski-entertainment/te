@@ -39,11 +39,16 @@ export const HomePage = () => {
                             title={cardOffice.title}
                             subtitle={cardOffice.subtitle}
                             paragraf={cardOffice.paragraf} 
+                            modalTitle={cardOffice.modal.modalTitle}
+                            modalDescription={cardOffice.modal.modalDescription} 
                         />
                         <CardElement 
                             title={cardMusicStudio.title}
                             subtitle={cardMusicStudio.subtitle}
-                            paragraf={cardMusicStudio.paragraf}
+                            head={cardMusicStudio.paragraf.head}
+                            parLi1={cardMusicStudio.paragraf.li1}
+                            parLi2={cardMusicStudio.paragraf.li2}
+                            parLi3={cardMusicStudio.paragraf.li3}
                             modalTitle={cardMusicStudio.modal.modalTitle}
                             modalDescription={cardMusicStudio.modal.modalDescription} 
                         />
@@ -56,6 +61,7 @@ export const HomePage = () => {
             <Section>
                 <Container>
                     <ContactCard>
+                        <div id='contactOffice'>
                         <ContactOffice
                             header={contactOffice.header}
                             name={contactOffice.name}
@@ -73,14 +79,26 @@ export const HomePage = () => {
                             btnFormName={contactOffice.btnFormName}
                             formSrc={contactOffice.formSrc} 
                         />
+                        </div>
+                        <div id='contactStudio'>
                         <ContactOffice 
+                            header={contactMusicStudio.header}
                             name={contactMusicStudio.name}
+                            aPar1={contactMusicStudio.about.par1}
+                            aPar2={contactMusicStudio.about.par2}
+                            aPar3={contactMusicStudio.about.par3}
+                            aPar4={contactMusicStudio.about.par4}
+                            timeP1={contactMusicStudio.time.p1}
+                            timeP2={contactMusicStudio.time.p2}
+                            timeP3={contactMusicStudio.time.p3}
+                            timeP4={contactMusicStudio.time.p4}
                             email={contactMusicStudio.email}
                             tel={contactMusicStudio.tel}
                             form={contactMusicStudio.form}
                             btnFormName={contactMusicStudio.btnFormName}
                             formSrc={contactMusicStudio.formSrc}
                         />
+                        </div>
                     </ContactCard>
                 </Container>
             </Section>

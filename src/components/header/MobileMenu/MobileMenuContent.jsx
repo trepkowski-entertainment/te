@@ -7,9 +7,10 @@ export const MobileMenuContent =  ({onClose}) => {
             <div className={styles.modalOverlay}>
                 <div className={styles.modalContent}> 
                 <ul className={styles.head__menuList}>
-                    <li><Link to="/" onClick={onClose}>0000</Link></li>
-                    <li><p>opoopo</p></li>
-                    <li><p>opoopo</p></li>
+                    <li><Link to="/" onClick={onClose}>Strona główna</Link></li>
+                    <li onClick={onClose}><a href='#contactOffice'>Kontakt biuro</a></li>
+                    <li onClick={onClose}><a href='#contactStudio'>Kontakt Music Studio</a></li>
+                    <li><Link to="/squad" onClick={onClose}>Nasza ekipa</Link></li>
                 </ul>
                 <button onClick={onClose}>Zamknij</button>
                 </div> 

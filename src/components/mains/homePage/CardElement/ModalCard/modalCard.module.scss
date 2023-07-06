@@ -1,4 +1,6 @@
-.modalOverlay {
+@import '../../../../global.module.scss';
+
+.modalCard__overlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -10,18 +12,34 @@
     justify-content: center;
   }
   
-  .modalContent {
+  .modalCard__content {
     background-color: #f2f2f2;
     padding: 20px;
     border-radius: 5px;
+    font-family: $fontThrd;
+    // text-align:start;
   }
+
+  // .modalCard__h3::after {
+  //   content: '...';
+  //   display: flex;
+  //   justify-content: center;
+  // }
   
-  .modalContent h3,
-  .modalContent h4,
-  .modalContent p {
-    margin: 0;
-  }
-  
-  .modalContent button {
-    margin-top: 10px;
+  // .modalCard__p::before {
+  //   content: '...';
+  //   display: flex;
+  //   justify-content: center;
+  // }
+
+  // .modalCard__p::after {
+  //   content: '...';
+  //   display: flex;
+  //   justify-content: center;
+  // }
+
+  .modalCard__divBtn {
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-end;
   }

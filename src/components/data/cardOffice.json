@@ -1,5 +1,12 @@
     {
         "title": "Artistic Agency TE",
-        "subtitle": "El first test sub",
-        "paragraf": "Lorem ipsum - paragraf"
+        "subtitle": "Agencja artystyczna",
+        "paragraf": "Oprawa muzyczna oraz organizacja imprez okolicznościowych",
+        "modal" : {
+            "modalTitle": "Trepkowski Entertainment Artistic Agency",
+            "modalDescription": "Nasza agencja artystyczna zajmuje się organizacją oraz oprawą muzyczną uroczystości okolicznościowych."
+        }
     }
+
+
+

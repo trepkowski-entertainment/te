@@ -1,8 +1,22 @@
 {
+    "header": "Kontakt Music Studio",
     "name": "Music Studio",
+    "about": {
+        "par1": "Śpiew - emisja głosu",
+        "par2": "Zajęcia aktorskie",
+        "par3": "Zajęcia w zakresie przedmiotów teoretycznych",
+        "par4": "Konsultacje wokalne/muzyczne"
+    },
+    "time": {
+        "p1": "Poniedziałek - Piątek",
+        "p2": "10:00 - 15:00",
+        "p3": "Sobota - Niedziela",
+        "p4": "10:00 - 13:00"
+    },
     "email": "tems.koordynacja@gmail.com",
     "tel":  "459-362-033",
-    "form": "src",
     "btnFormName": "Fromularz zgłoszeniowy",
     "formSrc": "https://docs.google.com/forms/d/e/1FAIpQLSdLd2-NwZ5aHxmqsmw7ir1m4GE1BW_O3EzHRekJwumj2Vb8uw/viewform?usp=sf_link"
+
 }
+

@@ -37,14 +37,15 @@
 
     &__h3 {
         // display: inline;
+        // margin: 20px;
         background-color: aquamarine;
         text-align: center;
-        width: 140px;
+        width:max-content;
         border-radius: 4px;
-        // padding:1px;
+        padding:2px;
         letter-spacing: 1.5px;
         color: $colorWhite;
-        // font-size: 14px;
+        font-size: 18px;
     }
 
     &__divName {

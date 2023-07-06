@@ -1,8 +1,39 @@
-
+@import '../../../global.module.scss';
 
 .cardElementDiv {
     background-color: aqua;
     width: 210px;
-    height: 280px;
+    // height: 280px;
     border-radius: 4px;
+
+    font-family: $fontThrd;
+    text-align: center;
+
+    &__content {
+        // text-align: center;
+    }
+
+    &__h3 {
+        // background-color: coral;
+    }
+    &__h4::after {
+        content:".  .  .";
+        display: flex;
+        justify-content: center;
+        bottom: 50px;
+
+    }
+
+
+    &__parLi3::after {
+        content:".  .  .";
+        display: flex;
+        justify-content: center;
+        bottom: 50px;
+
+    }
+
+    &__btn {
+        margin-bottom: 20px;
+    }
 }
