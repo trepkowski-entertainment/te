@@ -54,10 +54,11 @@ export const AppTe = () => {
             </Section>
             <Routes>
                 <Route path="*" element={<HomePage />} />
+                <Route path="/" element={<HomePage />} />
                 <Route path="/te" element={<HomePage/>}/>
                 <Route path="/contact-page" element={<ContactPage/>}/>
                 <Route path='/squad' element={<Squad/>}>
-                    <Route path="squad-description" element={<SquadDescription/>}/>
+                    {/* <Route path="squad-description" element={<SquadDescription/>}/> */}
                 </Route>
 
             </Routes>
