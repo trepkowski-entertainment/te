@@ -2,7 +2,7 @@ import { SquadCard } from "./SquadCard/SquadCard"
 import teSquad from './../../data/teSquad.json'
 import temsSquad from './../../data/temsSquad.json'
 import styles from './squad.module.scss'
-import { Section } from "../Section/Section"
+import { Section } from "../../Section/Section"
 import { Container } from "../../Container/Container"
 
 
@@ -20,7 +20,8 @@ export const Squad = () => {
                             key={item.id}
                             name={item.name}
                             status={item.status}
-                            descNote={item.description.note}
+                            desNote={item.description.note}
+                            desLive={item.description.live}
                             picSrc={item.picture.src}
                             picAlt={item.picture.alt}
                         />
@@ -39,7 +40,8 @@ export const Squad = () => {
                             key={item.id}
                             name={item.name}
                             status={item.status}
-                            descNote={item.description.note}
+                            desNote={item.description.note}
+                            desLive={item.description.live}
                             picSrc={item.picture.src}
                             picAlt={item.picture.alt}
                         />

@@ -1,20 +1,37 @@
-import { Link, Outlet } from 'react-router-dom'
+
+import { useState } from 'react'
 import styles from './squadCard.module.scss'
 
 
-export const SquadCard = ({ name, status, descNote, picSrc, picAlt}) => {
+export const SquadCard = ({ name, status, desNote, desLive, picSrc, picAlt}) => {
+    const [showNote, setShowNote] = useState(false)
+
+    const toggleNote = () => {
+        setShowNote(!showNote)
+
+    }
+
+
     return(
-    <div className={styles.squadCard__div}>
-        <img 
-            className={styles.squadCard__img}
-            src={picSrc}
-            alt={picAlt}
-        />
-        <h3>{name}</h3>
-        <h4>{status}</h4>
-        <p>{descNote}</p>
-        <Link to="squad-description">więcej</Link>
-        <Outlet />
+    <div className={styles.squadCard}>
+        <div className={styles.squadCard__div}>
+            <img 
+                className={styles.squadCard__img}
+                src={picSrc}
+                alt={picAlt}
+            />
+            <h3>{name}</h3>
+            <h4>{status}</h4>
+            <p>{desNote}</p>
+            <button className={styles.squadCard__btn} onClick={toggleNote}>Rozwiń</button>
+        </div>
+        <div className={styles.squadCard__note}>
+            {showNote ? (
+                <div>
+                    <p>{desLive}</p>
+                </div>
+            ) : null}
+        </div>
     </div>
     )
     

@@ -1,16 +1,35 @@
 @import '../../../global.module.scss';
-
 .aboutDiv {
-    font-family: $czcionkaTest;
-    background-color: green;
+    display: flex;
+    justify-content: center;
+
+
+    &__contener {
+    font-family: $fontThrd;
+    // background-color: green;
     margin: 20px;
     border-radius: 8px;
     text-align: center;
+    padding: 2px 5px;
+    box-shadow: 0 0 5px green;
+    
+    
+
+    @include desktop {
+        width: 1000px;
+
+    }
+    }
 
     &__h3 {
         letter-spacing: 1px;
     }
     &__p {
-        font-family: $fontThrd;
+        // font-family: $fontThrd;
+    }
+
+    &__p3 {
+        // font-family: $fontThrd;
+        // padding-bottom: 10px;
     }
 }

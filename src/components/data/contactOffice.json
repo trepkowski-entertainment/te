@@ -13,7 +13,9 @@
         "p4": "10:00 - 13:00"
     },
     "email": "trepkowski.entertainment@gmail.com",
+    "emailto": "mailto:trepkowski.entertainment@gmail.com",
     "tel": "737-927-893",
+    "telto": "telto:737927893",
     "btnFormName": "Formularz kontaktowy",
     "formSrc": "https://docs.google.com/forms/d/e/1FAIpQLSfzSGQoh_8Tc67uS6KAD3ArFcmq0QAyEDtPidC-ft8mFloQDQ/viewform?usp=sf_link",
     "add": "Jesteśmy otwarci: pn-pt",

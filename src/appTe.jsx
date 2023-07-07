@@ -17,7 +17,7 @@ import { Route, Routes } from "react-router-dom"
 import { ContactPage } from "./components/mains/contactPage/contactPage"
 import { Squad } from "./components/mains/Squad/Squad"
 import { SquadDescription } from "./components/mains/Squad/SquadCard/SquadDescription/SquadDescription"
-import { Section } from "./components/mains/Section/Section"
+import { Section } from "./components/Section/Section"
 
 
 
@@ -54,18 +54,13 @@ export const AppTe = () => {
             </Section>
             <Routes>
                 <Route path="*" element={<HomePage />} />
-                <Route path="/" element={<HomePage/>}/>
+                <Route path="/te" element={<HomePage/>}/>
                 <Route path="/contact-page" element={<ContactPage/>}/>
                 <Route path='/squad' element={<Squad/>}>
                     <Route path="squad-description" element={<SquadDescription/>}/>
                 </Route>
 
             </Routes>
-            
-                
-                
-            
-            <p>kobenhawffeedxcvhbjkl</p>
             <Footer />
             </>
               )}

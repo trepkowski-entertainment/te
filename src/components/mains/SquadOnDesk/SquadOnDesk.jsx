@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 
 import { Container } from "../../Container/Container"
-import { Section } from "../Section/Section"
+import { Section } from "../../Section/Section"
 import { Squad } from "../Squad/Squad"
 
 

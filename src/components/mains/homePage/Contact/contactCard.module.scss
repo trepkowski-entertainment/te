@@ -14,13 +14,15 @@
  
 
 .contactDiv {
-    background-color: hotpink;
+    // background-color: hotpink;
+    background-color: rgba(252, 140, 200, 0.2);
     width: 320px;
     // height: 320px;
     border-radius: 4px;
-    box-shadow: 0 0 5px rgb(31, 29, 29);
+    box-shadow: 0 0 5px rgb(124, 73, 100);
+    
 
-    font-size: 14px;
+    font-size: 16px;
     font-family: $fontSnd;
     @include tablet {
         width: 320px;
@@ -28,28 +30,35 @@
 
 
     &__divH3 {
+        padding-top: 5px;
+        padding-left: $cardContactPaddingLeft;
         // display: inline;
         // padding: 5px;
         
-        background-color: rgb(145, 99, 67);
+        // background-color: rgb(145, 99, 67);
         
     }
+
 
     &__h3 {
         // display: inline;
         // margin: 20px;
-        background-color: aquamarine;
+        // background-color: rgb(105, 160, 141);
+        background-color: rgba(103, 160, 141, 0.5);
         text-align: center;
         width:max-content;
         border-radius: 4px;
         padding:2px;
         letter-spacing: 1.5px;
-        color: $colorWhite;
-        font-size: 18px;
+        // color: $colorWhite;
+        color: white;
+        font-size: 20px;
     }
 
     &__divName {
         border-bottom: $borderBottomOne;
+        padding-left: $cardContactPaddingLeft;
+
     }
 
     &__h4 {
@@ -67,11 +76,15 @@
 
     &__divTime{
         border-bottom: $borderBottomOne;
+        padding-left: $cardContactPaddingLeft;
+
     }
 
 
     &__divContact{
         border-bottom: $borderBottomOne;
+        padding-left: $cardContactPaddingLeft;
+
     }
 }
 
@@ -80,6 +93,8 @@
     font-family: $fontFirst;
     font-size: 12px;
     letter-spacing: 0.5px;
+    margin-left: $cardContactPaddingLeft;
+
     
 }
 

@@ -1,7 +1,7 @@
 import styles from './homePage.module.scss'
 
 import { CardElement } from "./CardElement/CardElement"
-import { Section } from "./../Section/Section"
+import { Section } from "../../Section/Section"
 import { AboutSection } from "./AboutSection/AboutSection"
 
 import { ContactCard } from "./Contact/ContactCard"
@@ -73,7 +73,9 @@ export const HomePage = () => {
                             timeP3={contactOffice.time.p3}
                             timeP4={contactOffice.time.p4}
                             email={contactOffice.email}
+                            emailto={contactOffice.emailto}
                             tel={contactOffice.tel}
+                            telto={contactOffice.telto}
                             add={contactOffice.add}
                             form={contactOffice.form}
                             btnFormName={contactOffice.btnFormName}
@@ -93,7 +95,9 @@ export const HomePage = () => {
                             timeP3={contactMusicStudio.time.p3}
                             timeP4={contactMusicStudio.time.p4}
                             email={contactMusicStudio.email}
+                            emailto={contactMusicStudio.emailto}
                             tel={contactMusicStudio.tel}
+                            telto={contactMusicStudio.telto}
                             form={contactMusicStudio.form}
                             btnFormName={contactMusicStudio.btnFormName}
                             formSrc={contactMusicStudio.formSrc}
