@@ -1,11 +1,13 @@
 @import '../global.module.scss';
 
-
+.sectionHead {
+    border-bottom: 1px solid $footerBackground;
+}
 
 .head__div {
     // height: 100px;
     width: 100%;
-    background-color: $headerBackground;
+    // background-color: $headerBackground;
     // position: relative;
     display: flex;
     justify-content: space-between;

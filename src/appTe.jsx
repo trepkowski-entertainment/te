@@ -18,6 +18,7 @@ import { ContactPage } from "./components/mains/contactPage/contactPage"
 import { Squad } from "./components/mains/Squad/Squad"
 import { SquadDescription } from "./components/mains/Squad/SquadCard/SquadDescription/SquadDescription"
 import { Section } from "./components/Section/Section"
+import { SectionHeader } from "./components/header/SectionHeader"
 
 
 
@@ -43,6 +44,7 @@ export const AppTe = () => {
             {loading ? (<LoaderStart /> 
             ) : (
                 <>
+        <SectionHeader>
             <Section>
                 <Container>
                     <Header>
@@ -52,6 +54,7 @@ export const AppTe = () => {
                     </Header>
                 </Container>
             </Section>
+        </SectionHeader>
             <Routes>
                 <Route path="*" element={<HomePage />} />
                 <Route path="/" element={<HomePage />} />
