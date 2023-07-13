@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom'
 export const MobileMenuContent =  ({onClose}) => {
     return(
         <div>
-            <div className={styles.modalOverlay}>
+            <div className={`${styles.modalOverlay} ${styles.modalOverlayHidden}`}>
                 <div className={styles.modalContent}> 
-                    <div className={styles.menuLogo}>
+                    {/* <div className={styles.menuLogo}>
 
-                    </div>
+                    </div> */}
                     <ul className={styles.head__menuList}>
                         <li><Link className={styles.head__menuListLink} to="/" onClick={onClose}>Strona główna</Link></li>
                         <li onClick={onClose}><a className={styles.head__menuListLink} href='#contactOffice'>Kontakt biuro</a></li>
