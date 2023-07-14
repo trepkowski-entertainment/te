@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react"
+import { Route, Routes } from "react-router-dom"
 
 
 import { Footer } from "./components/footer/footer"
@@ -7,18 +8,18 @@ import { HomePage } from "./components/mains/homePage/homePage"
 
 import { Container } from "./components/Container/Container"
 
-import {  MobileMenu } from "./components/header/MobileMenu/MobileMenu"
+import { MobileMenu } from "./components/header/MobileMenu/MobileMenu"
 import { Logo } from "./components/header/Logo/Logo"
 import { ButtonsMenu } from "./components/header/ButtonsMenu/ButtonsMenu"
 
 import { LoaderStart } from "./components/LoaderStart/LoaderStart"
-import { Route, Routes } from "react-router-dom"
 
 import { ContactPage } from "./components/mains/contactPage/contactPage"
 import { Squad } from "./components/mains/Squad/Squad"
 import { SquadDescription } from "./components/mains/Squad/SquadCard/SquadDescription/SquadDescription"
 import { Section } from "./components/Section/Section"
 import { SectionHeader } from "./components/header/SectionHeader"
+import { NotFound } from "./components/NotFound/NotFound"
 
 
 
@@ -56,8 +57,8 @@ export const AppTe = () => {
             </Section>
         </SectionHeader>
             <Routes>
-                <Route path="*" element={<HomePage />} />
-                <Route path="/" element={<HomePage />} />
+                <Route path="*" element={<NotFound />} />
+                {/* <Route path="/" element={<HomePage />} /> */}
                 <Route path="/te" element={<HomePage/>}/>
                 <Route path="/contact-page" element={<ContactPage/>}/>
                 <Route path='/squad' element={<Squad/>}>
