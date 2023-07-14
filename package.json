@@ -2,7 +2,7 @@
   "name": "te",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://trepkowski-entertaiment.github.io/te",
+  "homepage": "https://trepkowski-entertainment.github.io/te",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
