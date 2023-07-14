@@ -16,7 +16,7 @@ import { LoaderStart } from "./components/LoaderStart/LoaderStart"
 
 import { ContactPage } from "./components/mains/contactPage/contactPage"
 import { Squad } from "./components/mains/Squad/Squad"
-import { SquadDescription } from "./components/mains/Squad/SquadCard/SquadDescription/SquadDescription"
+// import { SquadDescription } from "./components/mains/Squad/SquadCard/_SquadDescription/SquadDescription"
 import { Section } from "./components/Section/Section"
 import { SectionHeader } from "./components/header/SectionHeader"
 import { NotFound } from "./components/NotFound/NotFound"
@@ -58,8 +58,8 @@ export const AppTe = () => {
         </SectionHeader>
             <Routes>
                 <Route path="*" element={<NotFound />} />
-                {/* <Route path="/" element={<HomePage />} /> */}
                 <Route path="/te" element={<HomePage/>}/>
+                <Route path="/" element={<HomePage />} />
                 <Route path="/contact-page" element={<ContactPage/>}/>
                 <Route path='/squad' element={<Squad/>}>
                     {/* <Route path="squad-description" element={<SquadDescription/>}/> */}
