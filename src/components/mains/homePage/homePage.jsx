@@ -35,6 +35,7 @@ export const HomePage = () => {
             <Section background={"cardSection"}>
                 <Container>
                     <Cards>
+                        <div className={styles.home__cardAgency}>
                         <CardElement 
                             title={cardOffice.title}
                             subtitle={cardOffice.subtitle}
@@ -42,6 +43,8 @@ export const HomePage = () => {
                             modalTitle={cardOffice.modal.modalTitle}
                             modalDescription={cardOffice.modal.modalDescription} 
                         />
+                        </div>
+                        <div className={styles.home__cardStudio}>
                         <CardElement 
                             title={cardMusicStudio.title}
                             subtitle={cardMusicStudio.subtitle}
@@ -52,6 +55,7 @@ export const HomePage = () => {
                             modalTitle={cardMusicStudio.modal.modalTitle}
                             modalDescription={cardMusicStudio.modal.modalDescription} 
                         />
+                        </div>
                     </Cards>
                 </Container>
             </Section>

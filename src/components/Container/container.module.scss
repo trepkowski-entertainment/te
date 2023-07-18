@@ -8,11 +8,11 @@
         width: $mobileMax;
 
     @include tablet {
-        width: $tablet;
+        width: 680px;
 
     }
     @include desktop {
-        width: $desktop;
+        width: 1100px;
 
     }
 }

@@ -24,9 +24,9 @@ const StyledLink = styled(NavLink)`
 export const ButtonsMenu = () => {
     return(
         <div className={styles.head__divBtn}>
-            <button className={styles.btnLink}><StyledLink to="/"npm >0000</StyledLink></button>
-            <button><StyledLink to="/contact-page">0000</StyledLink></button>
-            <button><StyledLink to="/squad">xabx</StyledLink></button>
+            <button className={styles.btnLink}><StyledLink to="/" >Strona główna</StyledLink></button>
+            <button><a href='#contactOffice'>Kontakt biuro</a></button>
+            <button><StyledLink to="/squad">Zespół</StyledLink></button>
 
         </div>
     )

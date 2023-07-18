@@ -1,8 +1,20 @@
 @import '../../../global.module.scss';
 
 .cardElementDiv {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: center;
+
+
+
+
+    margin-top: 100px;
+
+
     background-color: aqua;
-    width: 210px;
+    width: 320px;
     // height: 280px;
     border-radius: 4px;
 
@@ -11,6 +23,18 @@
 
     &__content {
         // text-align: center;
+    }
+
+    &__divH3 {
+        background-color: red;
+        width: 80%;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        position: absolute;
+        top: -80px;
     }
 
     &__h3 {
@@ -37,3 +61,12 @@
         margin-bottom: 20px;
     }
 }
+
+// .cardElementDiv::after {
+//     content: '';
+//     position: absolute;
+//     background-color: red;
+//     width: 80%;
+//     height: 120px;
+
+// }

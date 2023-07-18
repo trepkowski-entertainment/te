@@ -8,7 +8,7 @@ import { ModalForm } from '../ModalForm/ModalForm'
 
 
 
-export const ContactOffice = ({ header, name, email, emailto, tel, telto, add, form, btnFormName, formSrc, aPar1, aPar2, aPar3, aPar4, timeP1, timeP2, timeP3, timeP4}) => {
+export const ContactOffice = ({ header, name, email, tel, telto, btnFormName, formSrc, aPar1, aPar2, aPar3, aPar4, timeP1, timeP2, timeP3, timeP4}) => {
 
     const [isModalOpen, setIsModalOpen] = useState(false)
 
@@ -44,11 +44,11 @@ export const ContactOffice = ({ header, name, email, emailto, tel, telto, add, f
             <div className={styles.contactDiv__divContact}>
                 <p className={styles.contactDiv__paragraf}>
                     <a className={styles.contactDiv__link}
-                    href="{telto}">{tel}</a>
+                    href={`tel: ${telto}`}>{tel}</a>
                 </p>
                 <p className={styles.contactDiv__paragraf}>
                     <a className={styles.contactDiv__link}
-                    href="{emailto}">{email}</a>
+                    href={`mailto: ${email}`}>{email}</a>
                 </p>
                 
             </div>

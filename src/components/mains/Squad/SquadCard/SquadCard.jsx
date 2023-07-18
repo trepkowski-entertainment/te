@@ -23,12 +23,14 @@ export const SquadCard = ({ name, status, desNote, desLive, picSrc, picAlt}) => 
             <h3>{name}</h3>
             <h4>{status}</h4>
             <p>{desNote}</p>
-            <button className={styles.squadCard__btn} onClick={toggleNote}>Rozwiń</button>
+            <button className={styles.squadCard__btn} onClick={toggleNote}>
+                {!showNote ? 'Rozwiń' : 'Zwiń'}
+            </button>
         </div>
         <div className={styles.squadCard__note}>
             {showNote ? (
                 <div>
-                    <p>{desLive}</p>
+                    <p className={styles.squadCard__noteText}>{desLive}</p>
                 </div>
             ) : null}
         </div>

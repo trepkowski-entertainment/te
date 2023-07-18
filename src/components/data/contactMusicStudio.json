@@ -14,9 +14,8 @@
         "p4": "10:00 - 13:00"
     },
     "email": "tems.koordynacja@gmail.com",
-    "emailto": "mailto:tems.koordynacja@gmail.com",
     "tel":  "459-362-033",
-    "telto": "telto:459362033",
+    "telto": "459362033",
     "btnFormName": "Fromularz zgłoszeniowy",
     "formSrc": "https://docs.google.com/forms/d/e/1FAIpQLSdLd2-NwZ5aHxmqsmw7ir1m4GE1BW_O3EzHRekJwumj2Vb8uw/viewform?usp=sf_link"
 
