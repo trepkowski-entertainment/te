@@ -1,19 +1,12 @@
 @import '../../../global.module.scss';
 
 .cardElementDiv {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    // justify-content: center;
-
-
-
 
     margin-top: 100px;
 
 
     background-color: aqua;
+    // border: 3px solid burlywood;
     width: 320px;
     // height: 280px;
     border-radius: 4px;
@@ -21,8 +14,16 @@
     font-family: $fontThrd;
     text-align: center;
 
+    padding-top: 40px;
+
+
+
     &__content {
-        // text-align: center;
+            position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: center;
     }
 
     &__divH3 {
@@ -35,6 +36,9 @@
         
         position: absolute;
         top: -80px;
+
+        border-radius: 40%;
+        // border-radius: 40px;
     }
 
     &__h3 {

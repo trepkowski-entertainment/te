@@ -25,7 +25,7 @@ export const ButtonsMenu = () => {
     return(
         <div className={styles.head__divBtn}>
             <button className={styles.btnLink}><StyledLink to="/" >Strona główna</StyledLink></button>
-            <button><a href='#contactOffice'>Kontakt biuro</a></button>
+            {/* <button><Nav to="/#contactOffice">Kontakt biuro</Nav></button> */}
             <button><StyledLink to="/squad">Zespół</StyledLink></button>
 
         </div>
