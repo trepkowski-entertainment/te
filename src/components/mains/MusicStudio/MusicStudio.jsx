@@ -3,9 +3,10 @@ import { Container } from './../../Container/Container'
 
 import musicStudioCourses from './../../data/musicStudioCourses.json'
 import musicStudioPrices from './../../data/musicStudioPrices.json'
-import { MusicStudioSkills } from './MusicStudioSkills/MusicStudioSkills'
+import musicStudioSkills from './../../data/musicStudioSkills.json'
+// import { MusicStudioSkills } from './MusicStudioSkills/MusicStudioSkills'
 
-
+import styles from './musicStudio.module.scss'
 
 export const MusicStudio = () => {
 
@@ -15,17 +16,38 @@ export const MusicStudio = () => {
             <Section>
                 <Container>
                     <h1>Music Studio</h1>
-                    <MusicStudioSkills />
+                    <div className={styles.skills}>
+                        <ul className={styles.skills__list}>
+                        {musicStudioSkills.map((item) => (
+                            <li className={styles.skills__listEl}
+                                 key={item.id}>
+                                <img className={styles.skills__img}
+                                    src={require(`./icons/${item.svg}`)}
+                                    alt=''
+                                />
+                                <div className={styles.skills__listDiv}>
+                                    <h3 className={styles.skills__listDivTitle}>{item.title}</h3>
+                                    <p className={styles.skills__listDivAbout}>{item.about}</p>
+                                </div>
+                            </li>
+                        ))}
+                        </ul>
+                    </div>
+                    
+                    {/* <MusicStudioSkills /> */}
                 </Container>
             </Section>
             <Section>
                 <Container>
                     <h2>Nasz program</h2>
-                    <div>
+                    <div className={styles.courses}>
+                        {/* <div className={styles.list}> */}
                         {musicStudioCourses.map((item) => (
-                            <div>
-                                <img />
-                                <div>
+                            <div className={styles.courses__content}>
+                                <img className={styles.courses__img}
+                                    src=''
+                                    alt=''/>
+                                <div className={styles.courses__about}>
                                     <h4>{item.title}</h4>
                                     <p>{item.about.line1}</p>
                                     <p>{item.about.line2}</p>
@@ -33,6 +55,7 @@ export const MusicStudio = () => {
                                 </div>
                             </div>
                         ))}
+                        {/* </div> */}
                     </div>
                 </Container>
             </Section>
@@ -42,7 +65,9 @@ export const MusicStudio = () => {
                     <div>
                         {musicStudioPrices.map((item) => (
                             <div>
-                                <img />
+                                <img 
+                                    src=''
+                                    alt=''/>
                                 <div>
                                     <h4>{item.title}</h4>
                                     <h5>{item.about1.service} ({item.about1.units})</h5>

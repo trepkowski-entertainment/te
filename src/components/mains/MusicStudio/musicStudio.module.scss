@@ -1,0 +1,96 @@
+@import './../../global.module.scss';
+
+
+.skills {
+
+
+    &__list {
+        list-style: none;
+        padding: 0;
+
+        display: flex;
+        justify-content: center;
+        
+        gap: 20px;
+        flex-wrap: wrap;
+
+        @include tablet {
+            justify-content: space-between;
+            gap: 10px;
+        }
+        @include desktop {
+           
+        }
+    }
+
+
+
+    &__listEl {
+        background-color: bisque;
+        
+        text-align: center;
+
+        width: 220px;
+
+        @include tablet {
+            // margin: 10px 0;
+           
+        }
+
+        @include desktop {
+            margin: 20px 0;
+           
+        }
+    }
+
+    &__img {
+        width: 40px;
+    }
+
+    &__listDiv {
+        border: 2px solid black;
+    }
+
+    &__listDivTitle {
+        font-size: 14px;
+
+    }
+
+    &__listDivAbout {
+        font-size: 12px;
+
+    }
+}
+
+.courses {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    @include tablet {
+        justify-content: space-between;
+    }
+    
+
+    &__content {
+        margin: 20px 0;
+        width: 320px;
+        height: 320px;
+        
+    }    
+    
+    &__content:nth-child(1) {
+        background-color: beige;
+    }
+    &__content:nth-child(2) {
+        background-color:darkkhaki;
+    }
+    &__content:nth-child(3) {
+        background-color:burlywood;
+    }
+
+
+
+    &__img {}
+    &__about {}
+}

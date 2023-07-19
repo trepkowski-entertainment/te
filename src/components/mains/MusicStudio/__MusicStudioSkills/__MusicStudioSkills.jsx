@@ -9,6 +9,18 @@ export const MusicStudioSkills = () => {
     return(
         <div className={styles.skills}>
             <ul className={styles.skills__list}>
+                {/* {musicStudioSkills.map((item) => (
+                <li key={item.id}>
+                    <img
+                        src={require(`./icons/${item.svg}`)}
+                        alt=''
+                    />
+                    <div>
+                        <h3>{item.title}</h3>
+                        <p>Lorem ipsum ipsum lorem fatale content, array noret loret, operation sretro.</p>
+                    </div>
+                </li>
+                ))} */}
                 <li className={styles.skills__listEl}>
                     <img className={styles.skills__img}
                         src={iconDemo}
