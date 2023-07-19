@@ -1,0 +1,32 @@
+[
+    {
+        "svg": "",
+        "title": "Simple vocal plan",
+        "about": {
+            "line1": "Indywidualnie dobierasz zajęcia",
+            "line2": "Indywidualnie dobierasz zajęcia",
+            "line3": "Indywidualnie dobierasz zajęcia"
+        }
+
+    },
+    {
+        "svg": "",
+        "title": "Vocal experience",
+        "about": {
+            "line1": "Zajęcia wokalne",
+            "line2": "Indywidualnie dobierasz zajęcia",
+            "line3": "Indywidualnie dobierasz zajęcia"
+        }
+
+    },
+    {
+        "svg": "",
+        "title": "Vocal artist",
+        "about": {
+            "line1": "Kurs",
+            "line2": "Zajęcia aktorskie",
+            "line3": "Indywidualnie dobierasz zajęcia"
+        }
+
+    }
+]

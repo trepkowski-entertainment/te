@@ -57,7 +57,7 @@ export const ContactOffice = ({ header, name, email, tel, telto, btnFormName, fo
 
             {isModalOpen && (
             <ModalForm onClose={handleCloseModal}>
-            <button onClick={handleCloseModal}>Zamknij</button>
+            <button className={styles.btnFormClose} onClick={handleCloseModal}>Zamknij/Wróć</button>
 
                 <iframe
                     src={formSrc} // Wstaw tutaj link do formularza Google

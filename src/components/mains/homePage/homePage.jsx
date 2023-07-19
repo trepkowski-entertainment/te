@@ -36,13 +36,19 @@ export const HomePage = () => {
                 <Container>
                     <Cards>
                         <div className={styles.home__cardAgency}>
-                        <CardElement 
-                            title={cardOffice.title}
-                            subtitle={cardOffice.subtitle}
-                            paragraf={cardOffice.paragraf} 
-                            modalTitle={cardOffice.modal.modalTitle}
-                            modalDescription={cardOffice.modal.modalDescription} 
-                        />
+                            {cardOffice.map((item) => (
+                                <CardElement 
+                                    title={item.title}
+                                    subtitle={item.subtitle}
+                                    head={item.paragraf.head}
+                                    parLi1={item.paragraf.li1}
+                                    parLi2={item.paragraf.li2}
+                                    parLi3={item.paragraf.li3} 
+                                    modalTitle={item.modal.modalTitle}
+                                    modalDescription={item.modal.modalDescription} 
+                                />
+                            ))}
+                        
                         </div>
                         <div className={styles.home__cardStudio}>
                         <CardElement 

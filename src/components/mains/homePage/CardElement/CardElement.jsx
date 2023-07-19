@@ -47,7 +47,7 @@ const [modalVisible, setModalVisible] = useState(false);
               <h3 className={styles.cardElementDiv__h3}>{title}</h3>
             </div>
             <h4 className={styles.cardElementDiv__h4}>{subtitle}</h4>
-            <p className={styles.cardElementDiv__paragraf}>{paragraf}</p>
+            {/* <p className={styles.cardElementDiv__paragraf}>{paragraf}</p> */}
             <h5>{head}</h5>
             <p>{parLi1}</p>
             <p>{parLi2}</p>

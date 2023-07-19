@@ -21,6 +21,7 @@ import { Section } from "./components/Section/Section"
 import { SectionHeader } from "./components/header/SectionHeader"
 import { NotFound } from "./components/NotFound/NotFound"
 import { ContactDesktop } from "./components/header/ContactDesktop/ContactDesktop"
+import { MusicStudio } from "./components/mains/MusicStudio/MusicStudio"
 
 
 
@@ -66,6 +67,8 @@ export const AppTe = () => {
                 <Route path='/squad' element={<Squad/>}>
                     {/* <Route path="squad-description" element={<SquadDescription/>}/> */}
                 </Route>
+                <Route path='/music-studio' element={<MusicStudio />}/>
+
 
             </Routes>
             <Footer />

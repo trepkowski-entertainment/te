@@ -1,6 +1,7 @@
 @import '../../../../global.module.scss';
 
 .modalCard__overlay {
+  z-index: 999;
     position: fixed;
     top: 0;
     left: 0;
