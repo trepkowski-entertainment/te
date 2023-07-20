@@ -22,6 +22,7 @@ import { SectionHeader } from "./components/header/SectionHeader"
 import { NotFound } from "./components/NotFound/NotFound"
 import { ContactDesktop } from "./components/header/ContactDesktop/ContactDesktop"
 import { MusicStudio } from "./components/mains/MusicStudio/MusicStudio"
+import { MessengerComponent } from "./components/Messenger/Messenger"
 
 
 
@@ -37,16 +38,12 @@ export const AppTe = () => {
         }, 1000)
     }, [] )
 
-
-
-
-
-
     return (
         <div>
             {loading ? (<LoaderStart /> 
             ) : (
                 <>
+                <MessengerComponent />
         <SectionHeader>
             <Section>
                 <Container>
