@@ -13,9 +13,9 @@ import { Container } from "./../../Container/Container"
 
 
 import cardOffice from './../../data/cardOffice.json'
-import cardMusicStudio from './../../data/cardMusicStudio.json'
+// import cardMusicStudio from './../../data/cardMusicStudio.json'
 import contactOffice from './../../data/contactOffice.json'
-import contactMusicStudio from './../../data/contactMusicStudio.json'
+// import contactMusicStudio from './../../data/contactMusicStudio.json'
 import aboutSection from './../../data/aboutSection.json'
 import { SquadOnDesk } from '../SquadOnDesk/SquadOnDesk'
 
@@ -35,7 +35,7 @@ export const HomePage = () => {
             <Section background={"cardSection"}>
                 <Container>
                     <Cards>
-                        <div className={styles.home__cardAgency}>
+                        <div className={styles.home__cards}>
                             {cardOffice.map((item) => (
                                 <CardElement 
                                     title={item.title}
@@ -45,12 +45,13 @@ export const HomePage = () => {
                                     parLi2={item.paragraf.li2}
                                     parLi3={item.paragraf.li3} 
                                     modalTitle={item.modal.modalTitle}
-                                    modalDescription={item.modal.modalDescription} 
+                                    modalDescription={item.modal.modalDescription}
+                                    link={item.link} 
                                 />
                             ))}
                         
                         </div>
-                        <div className={styles.home__cardStudio}>
+                        {/* <div className={styles.home__cardStudio}>
                         <CardElement 
                             title={cardMusicStudio.title}
                             subtitle={cardMusicStudio.subtitle}
@@ -61,7 +62,7 @@ export const HomePage = () => {
                             modalTitle={cardMusicStudio.modal.modalTitle}
                             modalDescription={cardMusicStudio.modal.modalDescription} 
                         />
-                        </div>
+                        </div> */}
                     </Cards>
                 </Container>
             </Section>
@@ -71,28 +72,28 @@ export const HomePage = () => {
             <Section>
                 <Container>
                     <ContactCard>
-                        <div id='contactOffice'>
-                        <ContactOffice
-                            header={contactOffice.header}
-                            name={contactOffice.name}
-                            aPar1={contactOffice.about.par1}
-                            aPar2={contactOffice.about.par2}
-                            aPar3={contactOffice.about.par3}
-                            timeP1={contactOffice.time.p1}
-                            timeP2={contactOffice.time.p2}
-                            timeP3={contactOffice.time.p3}
-                            timeP4={contactOffice.time.p4}
-                            email={contactOffice.email}
-                            emailto={contactOffice.emailto}
-                            tel={contactOffice.tel}
-                            telto={contactOffice.telto}
-                            add={contactOffice.add}
-                            form={contactOffice.form}
-                            btnFormName={contactOffice.btnFormName}
-                            formSrc={contactOffice.formSrc} 
-                        />
+                        <div id='contactOffice'  className={styles.home__cards}>
+                            {contactOffice.map((item) => (
+                                <ContactOffice
+                                    header={item.header}
+                                    name={item.name}
+                                    aPar1={item.about.par1}
+                                    aPar2={item.about.par2}
+                                    aPar3={item.about.par3}
+                                    timeP1={item.time.p1}
+                                    timeP2={item.time.p2}
+                                    timeP3={item.time.p3}
+                                    timeP4={item.time.p4}
+                                    email={item.email}
+                                    tel={item.tel}
+                                    telto={item.telto}
+                                    btnFormName={item.btnFormName}
+                                    formSrc={item.formSrc} 
+                                />
+                            ))}
+                        
                         </div>
-                        <div id='contactStudio'>
+                        {/* <div id='contactStudio'>
                         <ContactOffice 
                             header={contactMusicStudio.header}
                             name={contactMusicStudio.name}
@@ -112,7 +113,7 @@ export const HomePage = () => {
                             btnFormName={contactMusicStudio.btnFormName}
                             formSrc={contactMusicStudio.formSrc}
                         />
-                        </div>
+                        </div> */}
                     </ContactCard>
                 </Container>
             </Section>

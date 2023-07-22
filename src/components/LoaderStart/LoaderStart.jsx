@@ -10,7 +10,6 @@ export const LoaderStart = () => {
 
     return (
         <div className={styles.loadLogoDiv}>
-            <p>Zapraszamy</p>
             <img 
                 className={styles.loadLogoImg}
                 src={logo}

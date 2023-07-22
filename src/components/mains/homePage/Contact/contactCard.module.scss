@@ -5,10 +5,10 @@
 
     margin: 60px 0;
 
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-around;
+    // display: flex;
+    // flex-wrap: wrap;
+    // gap: 20px;
+    // justify-content: space-around;
 }
 
 
@@ -17,16 +17,38 @@
  
 
 .contactDiv {
+
+    &:nth-child(1) {
+        background-color:$cardOfficeBack;
+    }
+    &:nth-child(2) {
+        background-color: $cardStudioBack;
+    }
+    
+
+
+
+    &:nth-child(1) &__btnDivEl{
+        background-color: darkred;
+    }
+    &:nth-child(2) &__btnDivEl {
+        background-color: mediumpurple;
+    }
+
+
+
+
+
     // background-color: hotpink;
     background-color: rgba(252, 140, 200, 0.2);
     width: 320px;
     // height: 320px;
-    border-radius: 4px;
+    border-radius: 20px;
     box-shadow: 0 0 5px rgb(124, 73, 100);
     
 
     font-size: 16px;
-    font-family: $fontSnd;
+    font-family: $fontThrd;
     @include tablet {
         width: 320px;
     }
@@ -62,6 +84,7 @@
         border-bottom: $borderBottomOne;
         padding-left: $cardContactPaddingLeft;
 
+
     }
 
     &__h4 {
@@ -78,28 +101,47 @@
     }
 
     &__divTime{
+        padding: $contactPaddingContentDiv;
         border-bottom: $borderBottomOne;
-        padding-left: $cardContactPaddingLeft;
+        line-height: 0.7;
 
     }
 
 
     &__divContact{
         border-bottom: $borderBottomOne;
-        padding-left: $cardContactPaddingLeft;
+        padding: $contactPaddingContentDiv;
+
+    }
+
+
+    &__btnDiv{
+        text-align: center;
+        
+
+    }
+
+    &__btnDivEl {
+        margin: 20px 0 20px 0;
+        font-family: $fontThrd;
+        font-size: 12px;
+        letter-spacing: 0.5px;
+
+        width: 260px;
+        height: 40px;
+
+        border-radius: 20px;
+
+        color: white;
+        letter-spacing: 2px;
+        font-size: 16px;
+        font-weight: 700;
+
 
     }
 }
 
-.btnForm {
-    margin: 20px 0 20px 0;
-    font-family: $fontFirst;
-    font-size: 12px;
-    letter-spacing: 0.5px;
-    margin-left: $cardContactPaddingLeft;
 
-    
-}
 
 
 .btnFormClose {

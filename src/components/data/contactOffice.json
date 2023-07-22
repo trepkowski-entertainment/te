@@ -1,20 +1,44 @@
-{
-    "header": "Kontakt biuro",
-    "name": "Artistic Agency",
-    "about": {
-        "par1": "",
-        "par2": "",
-        "par3": ""
+[
+    {
+        "header": "Kontakt biuro",
+        "name": "Artistic Agency",
+        "about": {
+            "par1": "",
+            "par2": "",
+            "par3": ""
+        },
+        "time": {
+            "p1": "Poniedziałek - Piątek",
+            "p2": "10:00 - 15:00",
+            "p3": "Sobota - Niedziela",
+            "p4": "10:00 - 13:00"
+        },
+        "email": "trepkowski.entertainment@gmail.com",
+        "tel": "737-927-893",
+        "telto": "737927893",
+        "btnFormName": "Formularz kontaktowy",
+        "formSrc": "https://docs.google.com/forms/d/e/1FAIpQLSfzSGQoh_8Tc67uS6KAD3ArFcmq0QAyEDtPidC-ft8mFloQDQ/viewform?usp=sf_link"
     },
-    "time": {
-        "p1": "Poniedziałek - Piątek",
-        "p2": "10:00 - 15:00",
-        "p3": "Sobota - Niedziela",
-        "p4": "10:00 - 13:00"
-    },
-    "email": "trepkowski.entertainment@gmail.com",
-    "tel": "737-927-893",
-    "telto": "737927893",
-    "btnFormName": "Formularz kontaktowy",
-    "formSrc": "https://docs.google.com/forms/d/e/1FAIpQLSfzSGQoh_8Tc67uS6KAD3ArFcmq0QAyEDtPidC-ft8mFloQDQ/viewform?usp=sf_link"
-}
+    {
+        "header": "Kontakt Music Studio",
+        "name": "Music Studio",
+        "about": {
+            "par1": "",
+            "par2": "",
+            "par3": "",
+            "par4": ""
+        },
+        "time": {
+            "p1": "Poniedziałek - Piątek",
+            "p2": "10:00 - 15:00",
+            "p3": "Sobota - Niedziela",
+            "p4": "10:00 - 13:00"
+        },
+        "email": "tems.koordynacja@gmail.com",
+        "tel":  "459-362-033",
+        "telto": "459362033",
+        "btnFormName": "Fromularz zgłoszeniowy",
+        "formSrc": "https://docs.google.com/forms/d/e/1FAIpQLSdLd2-NwZ5aHxmqsmw7ir1m4GE1BW_O3EzHRekJwumj2Vb8uw/viewform?usp=sf_link"
+    
+    }
+]

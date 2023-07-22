@@ -52,9 +52,12 @@ export const ContactOffice = ({ header, name, email, tel, telto, btnFormName, fo
                 </p>
                 
             </div>
-         
-            <button className={styles.btnForm} onClick={handleOpenModal}>{btnFormName}</button>
+            <div className={styles.contactDiv__btnDiv}>
+                <button className={styles.contactDiv__btnDivEl} onClick={handleOpenModal}>{btnFormName}</button>
 
+            </div>
+         
+            
             {isModalOpen && (
             <ModalForm onClose={handleCloseModal}>
             <button className={styles.btnFormClose} onClick={handleCloseModal}>Zamknij/Wróć</button>

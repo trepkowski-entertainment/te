@@ -2,20 +2,21 @@
 
 
 .loadLogoDiv {
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
 
 
 .loadLogoImg {
     width: 150px;
     @include tablet {
-        width: 300px;
+        width: 200px;
     }
     @include desktop {
-        width: 600px;
+        width: 200px;
     }
 
 }

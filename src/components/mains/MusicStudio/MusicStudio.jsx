@@ -22,11 +22,15 @@ export const MusicStudio = () => {
             <Section>
                 <Container>
                     <h2>Nasz program</h2>
+                    {/* // mapowanie i propsy ///  */}
                     <MusicStudioCourses />
                 </Container>
             </Section>
             <Section>
                 <Container>
+                    <p>cennik nie - cennik w modalu w kartach</p>
+                    <p>kalendarz pracy studio</p>
+                    <p>niezbedne informacje - requipment</p>
                     <h3>Cennik</h3>
                     <div>
                         {musicStudioPrices.map((item) => (

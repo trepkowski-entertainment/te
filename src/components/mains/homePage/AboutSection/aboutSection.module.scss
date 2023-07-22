@@ -9,28 +9,33 @@
 
 
     &__contener {
+
     font-family: $fontThrd;
-    // background-color: green;
-    // margin: 20px;
+    color: white;
+
+
     width: 100%;
     border-radius: 8px;
+
     text-align: center;
     padding: 2px 5px;
+
     box-shadow: 0 0 5px green;
-    
+
+    background-image: $gradientOrange;
+ 
     
 
     }
 
     &__h3 {
         letter-spacing: 1px;
+        font-size: 24px;
     }
     &__p {
-        // font-family: $fontThrd;
+        font-size: 18px;
+
     }
 
-    &__p3 {
-        // font-family: $fontThrd;
-        // padding-bottom: 10px;
-    }
+
 }
