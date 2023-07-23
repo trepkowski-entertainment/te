@@ -12,7 +12,8 @@ export const MusicStudioSkills = () => {
             <ul className={styles.skills__list}>
                 {musicStudioSkills.map((item) => (
                 <li className={styles.skills__listEl}
-                    key={item.id}>
+                    key={item.id}
+                    >
                     <img className={styles.skills__img}
                          src={require(`./../icons/${item.svg}`)}
                         alt=''

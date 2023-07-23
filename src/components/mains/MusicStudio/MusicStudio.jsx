@@ -5,8 +5,10 @@ import musicStudioPrices from './../../data/musicStudioPrices.json'
 
 import { MusicStudioSkills } from './MusicStudioSkills/MusicStudioSkills'
 
-// import styles from './musicStudio.module.scss'
+import styles from './musicStudio.module.scss'
 import { MusicStudioCourses } from './MusicStudioCourses/MusicStudioCourses'
+import { MusicStudioEquipment } from './MusicStudioEquipment/MusicStudioEquipment'
+import { MusicStudioCalendar } from './MusicStudioCalendar/MusicStudioCalendar'
 
 export const MusicStudio = () => {
 
@@ -15,15 +17,27 @@ export const MusicStudio = () => {
         <div>
             <Section>
                 <Container>
-                    <h1>Music Studio</h1>
+                    <h1 className={styles.btnClass}>Music Studio</h1>
                     <MusicStudioSkills />
                 </Container>
             </Section>
             <Section>
                 <Container>
-                    <h2>Nasz program</h2>
+                    <h2 className={styles.btnClass}>Nasz program</h2>
                     {/* // mapowanie i propsy ///  */}
                     <MusicStudioCourses />
+                </Container>
+            </Section>
+            <Section>
+                <Container>
+                    <h3 className={styles.btnClass}>Equipment</h3>
+                    <MusicStudioEquipment />
+                </Container>
+            </Section>
+            <Section>
+                <Container>
+                    <h3 className={styles.btnClass}>Calendar</h3>
+                    <MusicStudioCalendar />
                 </Container>
             </Section>
             <Section>
@@ -50,6 +64,10 @@ export const MusicStudio = () => {
                             </div>
                         ))}
                     </div>
+                </Container>
+            </Section>
+            <Section>
+                <Container>
                 </Container>
             </Section>
         </div>

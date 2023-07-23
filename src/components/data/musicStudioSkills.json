@@ -2,26 +2,26 @@
     {
         "id": "0",
         "svg": "logo192.png",
-        "title": "",
-        "about": ""
+        "title": "test",
+        "about": "test lorem test ipsum test"
     },
     {
         "id": "1",
         "svg": "logo192.png",
         "title": "Czytanie nut głosem",
-        "about": "Lorem ipsum ipsum lorem fatale content, array noret loret, operation sretro."
+        "about": "Lorem ipsum ipsum lorem fatale content, array noret loret."
     },
     {
         "id": "2",
         "svg": "logo192.png",
         "title": "Techniki wokalne",
-        "about": "Lorem ipsum ipsum lorem fatale content, array noret loret, operation sretro."
+        "about": "Lorem ipsum ipsum lorem fatale content, array noret loret."
     },
     {
         "id": "3",
         "svg": "logo192.png",
         "title": "Najlepsi instruktorzy",
-        "about": "Lorem ipsum ipsum lorem fatale content, array noret loret, operation sretro."
+        "about": "Lorem ipsum ipsum lorem fatale content, array noret loret."
     },
     {
         "id": "4",
