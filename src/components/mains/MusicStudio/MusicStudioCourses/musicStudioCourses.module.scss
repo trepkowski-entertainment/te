@@ -24,13 +24,16 @@
     }    
     
     &__content:nth-child(1) {
-        background-color: beige;
+        // background-color: beige;
+        background-image: $gradientCartBrown;
     }
     &__content:nth-child(2) {
-        background-color:darkkhaki;
+        // background-color:darkkhaki;
+        background-image: $gradientCartSilver;
     }
     &__content:nth-child(3) {
-        background-color:burlywood;
+        // background-color:burlywood;
+        background-image: $gradientCardGold;
     }
 
 

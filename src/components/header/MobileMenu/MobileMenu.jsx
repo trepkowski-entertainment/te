@@ -22,7 +22,10 @@ export const MobileMenu = () => {
 
     return (
             <div className={styles.head__divBtnMenu}>
-                <img onClick={toggleMenu} className={styles.head__imgBtnMenu} src={menuSvg} alt='logo'/>
+                <button className={styles.head__divBtnImg} onClick={toggleMenu}>
+                    <img className={styles.head__imgBtnMenu} src={menuSvg} alt='logo'/>
+                
+                </button>
                 
                 {isMenuOpen && (
                     <div>

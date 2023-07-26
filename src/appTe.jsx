@@ -49,7 +49,7 @@ export const AppTe = () => {
                 <Container>
                     <Header>
                         <Logo />
-                        <ContactDesktop />
+                        {/* <ContactDesktop /> */}
                         <ButtonsMenu />
                         <MobileMenu />
                     </Header>

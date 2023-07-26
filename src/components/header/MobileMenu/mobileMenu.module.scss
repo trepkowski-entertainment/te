@@ -12,6 +12,16 @@
         }
     }
 
+    .head__divBtnImg {
+        width: 60px;
+
+        border-radius: 40px;
+        border: none;
+        margin-right: 20px;
+
+        // background-image: $gradientPastel;
+    }
+
 
 
 
@@ -19,7 +29,7 @@
 
 
     .menuLogo {
-        background-color: black;
+        // background-color: black;
         height: 20px;
     }
 
@@ -33,13 +43,13 @@
 
     
     .head__imgBtnMenu {
-        width: 25px;
+        width: 20px;
        
     }
 
     .head__menuList {
         
-        background-color: red;
+        // background-color: red;
 
     
 
@@ -53,9 +63,10 @@
 
     }
     .head__menuList * {
+        font-family: $fontThrd;
         color: greenyellow;
         font-size: 22px;
-        letter-spacing: 1px;
+        letter-spacing: 2px;
         margin-top: 50px
     }
 
@@ -69,7 +80,10 @@
     }
 
     .head__menuBtn {
-        margin-bottom: 30px;
+        // margin-bottom: 30px;
+        border-radius: 40px;
+        margin: 0 50px 20px 50px;
+        height: 30px;
     }
 
 
@@ -112,7 +126,8 @@
 
   
   .modalContent {
-    background-color: aqua;
+    // background-color: aqua;
+    background-image: $gradientMoblieDark;
     width: 90%;
     height: 100%;
     display: flex;

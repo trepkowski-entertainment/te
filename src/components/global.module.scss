@@ -21,8 +21,9 @@ $desktop: 1280px;
 ////===========///////////////==============////  
 /// kolory ====== colors ====/////
 
+$headerBackground: linear-gradient(135deg, #ffffff, #ffffff, #A1A1A1,  #A1A1A1, #444444);
 
-$headerBackground: rgb(143, 39, 39);
+// $headerBackground: rgb(143, 39, 39);
 $footerBackground: rgb(75, 48, 48);
 
 $colorWhite: rgb(148, 145, 145);
@@ -83,6 +84,19 @@ $gradientAmber: linear-gradient(135deg, #FFBF00, #FF8000, #996300);
 
 //Gradient liniowy - Jadeit do Ciemnego Zielonego:
 $gradientJedeit: linear-gradient(135deg, #00C781, #007459, #004535);
+
+//Gradient liniowy - Brąz:
+$gradientCartBrown: linear-gradient(135deg, #8B4513, #D2691E, #C0C0C0, #A9A9A9, #C0C0C0, #D3D3D3);
+
+//Gradient liniowy - Srebro:
+$gradientCartSilver: linear-gradient(135deg, #C0C0C0, #A9A9A9, #FFD700, #CDAD00, #FFD700, #CDAD00);
+
+//Gradient liniowy - Złoto:
+$gradientCardGold: linear-gradient(135deg, #FFD700, #CDAD00, #8B4513, #D2691E, #8B4513, #D2691E);
+
+// mobilny Dark
+$gradientMoblieDark: linear-gradient(135deg, #5B392E, #1E2952);
+
 
 
 

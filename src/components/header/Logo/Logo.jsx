@@ -12,7 +12,6 @@ export const Logo = () => {
                 alt='logo'
             />
             </Link>
-            
             <h1 className={styles.logoH1}>Trepkowski Entertainment</h1>
         </div>
     )

@@ -67,7 +67,7 @@ export const HomePage = () => {
                 </Container>
             </Section>
 
-            <SquadOnDesk />
+            {/* <SquadOnDesk /> */}
 
             <Section>
                 <Container>

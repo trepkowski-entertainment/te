@@ -37,8 +37,7 @@
 
 
 
-
-
+    color: white;
     // background-color: hotpink;
     background-color: rgba(252, 140, 200, 0.2);
     width: 320px;
@@ -76,7 +75,7 @@
         padding:2px;
         letter-spacing: 1.5px;
         // color: $colorWhite;
-        color: white;
+        // color: white;
         font-size: 20px;
     }
 
@@ -97,7 +96,7 @@
     &__link {
         text-decoration: none;
         font-family: $fontFirst;
-        color:brown;
+        color:rgb(240, 223, 177);
     }
 
     &__divTime{
@@ -131,6 +130,7 @@
         height: 40px;
 
         border-radius: 20px;
+        border: none;
 
         color: white;
         letter-spacing: 2px;

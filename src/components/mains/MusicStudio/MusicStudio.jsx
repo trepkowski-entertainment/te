@@ -9,6 +9,9 @@ import styles from './musicStudio.module.scss'
 import { MusicStudioCourses } from './MusicStudioCourses/MusicStudioCourses'
 import { MusicStudioEquipment } from './MusicStudioEquipment/MusicStudioEquipment'
 import { MusicStudioCalendar } from './MusicStudioCalendar/MusicStudioCalendar'
+import { MusicStudioInstructors } from './MusicStudioInstructors/MusicStudioInstructors'
+
+import temsSquad from './../../data/temsSquad.json'
 
 export const MusicStudio = () => {
 
@@ -26,6 +29,24 @@ export const MusicStudio = () => {
                     <h2 className={styles.btnClass}>Nasz program</h2>
                     {/* // mapowanie i propsy ///  */}
                     <MusicStudioCourses />
+                </Container>
+            </Section>
+            <Section>
+                <Container>
+                    <h3 className={styles.btnClass}>Instruktorzy</h3>
+                    <div className={styles.instructorsContent}>
+                    {temsSquad.map((item) => (
+                        <MusicStudioInstructors
+                        id={item.id}
+                        name={item.name}
+                        status={item.comment}
+                        note={item.description.note}
+                        live={item.description.live}
+                        
+                        />
+                    ))}
+                    </div>
+                    
                 </Container>
             </Section>
             <Section>

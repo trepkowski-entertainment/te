@@ -1,0 +1,46 @@
+@import './../../../../global.module.scss';
+
+.modalCard__overlay {
+  z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modalCard__content {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: $fontThrd;
+    // text-align:start;
+  }
+
+  // .modalCard__h3::after {
+  //   content: '...';
+  //   display: flex;
+  //   justify-content: center;
+  // }
+  
+  // .modalCard__p::before {
+  //   content: '...';
+  //   display: flex;
+  //   justify-content: center;
+  // }
+
+  // .modalCard__p::after {
+  //   content: '...';
+  //   display: flex;
+  //   justify-content: center;
+  // }
+
+  .modalCard__divBtn {
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }

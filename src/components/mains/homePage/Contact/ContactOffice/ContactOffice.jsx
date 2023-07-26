@@ -30,10 +30,10 @@ export const ContactOffice = ({ header, name, email, tel, telto, btnFormName, fo
             </div>
             <div className={styles.contactDiv__divName}>
                 <h4 className={styles.contactDiv__h4}>{name}</h4>
-                <p className={styles.contactDiv__paragraf}>{aPar1}</p>
+                {/* <p className={styles.contactDiv__paragraf}>{aPar1}</p>
                 <p className={styles.contactDiv__paragraf}>{aPar2}</p>
                 <p className={styles.contactDiv__paragraf}>{aPar3}</p>
-                <p className={styles.contactDiv__paragraf}>{aPar4}</p>
+                <p className={styles.contactDiv__paragraf}>{aPar4}</p> */}
             </div>
             <div className={styles.contactDiv__divTime}>
                 <h4 className={styles.contactDiv__h4}>{timeP1}</h4>

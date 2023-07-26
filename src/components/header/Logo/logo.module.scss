@@ -6,6 +6,11 @@
     // background-color: rgb(132, 0, 255);
     display: flex;
     align-items: center;
+
+    @include desktop {
+        padding-bottom: 200px;
+
+    }
     
 }
 
@@ -38,7 +43,7 @@
         font-size: 22px;
     }
     @include desktop {
-        margin-left: 100px;
+        margin-left: 20px;
         font-size: 28px;
     }
 }
