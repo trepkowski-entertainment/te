@@ -1,0 +1,13 @@
+.home {
+    display: flex;
+    justify-content: center;
+    min-height: 80vh;
+    &__nav {
+        margin-top: 30px;
+        // background-color: azure;
+        display: grid;
+        justify-content: center;
+        // grid-template-columns: 1fr;
+
+    }
+}

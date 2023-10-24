@@ -1,0 +1,69 @@
+
+@import './../../../vars/colors/colors.module.scss';
+@import './../../../vars/colors/gradients.module.scss';
+@import './../../../vars/fonts/fonts.module.scss';
+@import './../../../vars/mediaQuery/mediaQuery.module.scss';
+@import './../../../vars/vars/vars.module.scss';
+
+
+
+
+.courses {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    @include tablet {
+        justify-content: space-between;
+    }
+    
+
+    &__content {
+
+        position: relative;
+        margin: 20px 0;
+        width: 280px;
+        // height: 320px;
+
+        display: flex;
+        justify-content: center;
+
+        
+        
+    }    
+    
+    &__content:nth-child(1) {
+        // background-color: beige;
+        background-image: $gradientCartBrown;
+    }
+    &__content:nth-child(2) {
+        // background-color:darkkhaki;
+        background-image: $gradientCartSilver;
+    }
+    &__content:nth-child(3) {
+        // background-color:burlywood;
+        background-image: $gradientCardGold;
+    }
+
+
+
+    // &__img {
+    //     background-color: red;
+    //     border-radius: 50%;
+
+    //     width: 160px;
+    //     // height: 180px;
+
+    //     position: absolute;
+    //     top: -80px;
+
+        
+    // }
+    &__about {
+        margin: 40px 0 60px 0;
+
+        &__btn {
+            margin-top: 20px;
+        }
+    }
+}

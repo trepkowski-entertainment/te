@@ -1,0 +1,72 @@
+///////==============////////////////===========/////
+/// gradienty ======
+/// 
+
+
+
+$gradientBlue: linear-gradient(135deg, #007BFF, #001f3f);
+$gradientOrange: linear-gradient(135deg, #FFD700, #8B4513);
+
+// Gradient liniowy - Pastelowy róż do Fioletowego:
+$gradientPastel: linear-gradient(135deg, #FFC3A0, #FFAFBD, #C0C0E4);
+
+//Gradient liniowy - Turkus do Błękitu:
+$gradientTurkus: linear-gradient(135deg, #61A3FE, #8ECAE6, #B5EAEA);
+
+//Gradient liniowy - Złoto do Brązu:
+$gradientGold: linear-gradient(135deg, #FFD700, #B08B59, #6B4423);
+
+//Gradient liniowy - Miętowy do Morskiego Zielonego:
+$gradientMint: linear-gradient(135deg, #C4FFDD, #91EBB3, #69C7B1);
+
+//Gradient liniowy - Srebrny do Szarości:
+$gradientSilver: linear-gradient(135deg, #E6E6E6, #A1A1A1, #444444);
+
+//Gradient liniowy - Czerwień do Ciemnej Czerwieni:
+$gradientDark: linear-gradient(135deg, #FF0000, #D10000, #4A0000);
+
+//Gradient liniowy - Bursztyn do Ciemnego Bursztynu:
+$gradientAmber: linear-gradient(135deg, #FFBF00, #FF8000, #996300);
+
+//Gradient liniowy - Jadeit do Ciemnego Zielonego:
+$gradientJedeit: linear-gradient(135deg, #00C781, #007459, #004535);
+
+
+// mobilny Dark
+$gradientMoblieDark: linear-gradient(135deg, #5B392E, #1E2952);
+
+
+
+
+
+//Gradient liniowy - Brąz:
+// $gradientCartBrown: linear-gradient(135deg, #8B4513, #D2691E, #C0C0C0, #A9A9A9, #C0C0C0, #D3D3D3);
+$gradientCartBrown: linear-gradient(135deg, rgba(139, 69, 19, 0.6), rgba(210, 105, 30, 0.6), rgba(192, 192, 192, 0.6), rgba(169, 169, 169, 0.6));
+
+//Gradient liniowy - Srebro:
+// $gradientCartSilver: linear-gradient(135deg, #C0C0C0, #A9A9A9, #FFD700, #CDAD00, #FFD700, #CDAD00);
+$gradientCartSilver: linear-gradient(135deg, rgba(192, 192, 192, 0.6), rgba(169, 169, 169, 0.6), rgba(205, 173, 0, 0.6));
+
+//Gradient liniowy - Złoto:
+// $gradientCardGold: linear-gradient(135deg, #FFD700, #CDAD00, #8B4513, #D2691E, #8B4513, #D2691E);
+$gradientCardGold: linear-gradient(135deg, rgba(255, 215, 0, 0.6), rgba(205, 173, 0, 0.6), rgba(139, 69, 19, 0.6));
+
+
+
+
+
+
+
+
+
+// background-image: radial-gradient(circle, #ff0000, #00ff00);
+//     background-image: linear-gradient(to right, #ff0000, #00ff00, #0000ff);
+//     background-image: linear-gradient(to right, #ff0000, #00ff00);
+//     background-image: radial-gradient(ellipse at 30% 70%, #ff0000, #00ff00);
+//     background-image: linear-gradient(45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+// background-image: linear-gradient(135deg, #007BFF, #001f3f);
+// background-image: linear-gradient(135deg, #CCCCCC, #000000);
+// background-image: linear-gradient(135deg, #4CAF50, #1B5E20);
+// background-image: linear-gradient(135deg, #800000, #3C0000);
+// background-image: linear-gradient(135deg, #FFD700, #8B4513);
+// background-image: linear-gradient(135deg, #800080, #2E0854);

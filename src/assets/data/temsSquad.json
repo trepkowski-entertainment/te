@@ -1,0 +1,72 @@
+[
+    {
+        "id": "0",
+        "name": "Maciej Gronek",
+        "status": "Wokalista – tenor",
+        "comment": "Instruktor przedmiot/ów",
+        "description": {
+            "note": "Instruktor w music studio, przedmioty .....",
+            "live": "Absolwent wydziału Wokalno-Aktorskiego na Akademii Muzycznej im. Stanisława Moniuszki w Gdańsku w klasie prof. Andrzeja Nanowskiego. Swoje pierwsze kroki zawodowe stawiał na deskach Opery Bałtyckiej w Gdańsku, gdzie wystąpił m.in. w roli Plutona w operetce „Orfeusz w Piekle” Offenbacha. Od 2019 roku związany z Polską Operą Królewską, gdzie można go oglądać w roli Podesty w operze „Rzekoma Ogrodniczka” W.A. Mozarta oraz Sofara i Choreuty 3 w operze „Hiob” K. Dębskiego (prapremiera odbyła się 24 kwietnia 2021). Na co dzień występuje jako artysta Reprezentacyjnego Zespołu Artystycznego Wojska Polskiego."
+        },
+        "picture": {
+            "src": "",
+            "alt": ""
+        }
+    },
+    {
+        "id": "1",
+        "name": "Martyna Gorajek",
+        "status": "kkkoo-kkkoo",
+        "comment": "Instruktor przedmiot/ów",
+        "description": {
+            "note": "Instruktor w music studio, przedmioty .....",
+            "live": "Absolwentka Akademii Muzycznej w Gdańsku na kierunku Dyrygentura Chóralna, na codzień pedagog, nauczyciel muzyki. Największą pasją jest jednak śpiew chóralny i emisja głosu."
+        },
+        "picture": {
+            "src": "",
+            "alt": ""
+        }
+    },
+    {
+        "id": "2",
+        "name": "Bartłomiej Kłos",
+        "status": "Wokalista – Baryton",
+        "comment": "Instruktor przedmiot/ów",
+        "description": {
+            "note": "lorem, kkoioioi, lopuyttr fddg oopiumn, mjkjkp. klklkoioh nbbv vf d fdfds.",
+            "live": "Absolwent Akademii Muzycznej w Gdańsku im. Stanisława Moniuszki. Dyplom z wyróżnieniem uzyskał w lipcu 2018 na kierunku wokalistyka w klasie śpiewu profesora Leszka Skrli. Współpracował z Operą Bałtycką w Gdańsku, gdzie debiutował na scenie operowej w roli Marcina Pakuły w “Verbum Nobile” S. Moniuszki. Pracował również z Bamberger Sypmhoniker oraz Narodowym Forum Muzyki we Wrocławiu. Wykonywał partię Nardo w “La finta giardiniera” W. A. Mozarta w akademickiej produkcji pod batutą Sylwii Janiak-Kobylińskiej, partię Salieriego w operze “Mozart i Salieri” Rimskiego-Korsakowa, partię Piłata w “Pasji wg. św Jana” J.S. Bacha. Występował jako solista w “Requiem” op. 48 G. Faure na koncertach w Gdańsku i Słupsku pod batutą Bohdana Jarmołowicza oraz w “Petite Messe solennelle” Rossiniego pod batutą Rolfa Becka w Aldersbach. Od października 2018 roku solista Opery Nova w Bydgoszczy, gdzie kreował partię Schaunarda w “Cyganerii” G. Pucciniego, Macieja w “Strasznym Dworze” Moniuszki, Barona w “Traviacie” G. Verdiego, Dr Falke w “Zemście nietoperza” J. Straussa, Populescu w “Hrabinie Maricy” I. Kalmana czy Rybaka/Rajcę w “Awanturze w Recco” M. Małeckiego. Laureat III Nagrody oraz Nagrody Specjalnej za najlepsze wykonanie pieśni polskiej przez głos męski na Ogólnopolskim Konkursie Wokalnym w Drezdenku. Otrzymał I nagrodę na IV Ogólnopolskim Konkursie Wokalnym im. Krystyny Jamroz w Kielcach/Busku-Zdroju. Sztukę wokalną dokształcał pod okiem Roberta Evansa, Eamonna Dougana i Lucii Duchonovej."
+        },
+        "picture": {
+            "src": "",
+            "alt": ""
+        }
+    },
+    {
+        "id": "3",
+        "name": "Piotr Gryniewicki",
+        "status": "Wokalista – tenor",
+        "comment": "Instruktor przedmiot/ów",
+        "description": {
+            "note": "lorem, kkoioioi, lopuyttr fddg oopiumn, mjkjkp. klklkoioh nbbv vf d fdfds.",
+            "live": "Ukończył studia na specjalności Śpiew Solowy w Akademii Muzycznej w Gdańsku oraz na kierunku Edukacja Artystyczna na Uniwersytecie Muzycznym w Białymstoku. Obecnie studiuje Master Oper na HMDK Stuttgart. W swoim dorobku artystycznym ma wiele koncertów solowych oraz doświadczenie na scenie operowej. Jest laureatem I Ogólnopolskiego Konkursu Wokalnego im. St. Moniuszki w Gdańsku. Prowadzi warsztaty emisji głosu i śpiewu solowego. Młody, przyjazny i kontaktowy, w pracy nad głosem skupia się na budowaniu zdrowej techniki opartej na odpowiedniej pracy mięśni."
+        },
+        "picture": {
+            "src": "",
+            "alt": ""
+        }
+    },
+    {
+        "id": "4",
+        "name": "ggggg ffffff",
+        "status": "kkkoo-kkkoo",
+        "comment": "Instruktor przedmiot/ów",
+        "description": {
+            "note": "lorem, kkoioioi, lopuyttr fddg oopiumn, mjkjkp. klklkoioh nbbv vf d fdfds.",
+            "live": ""
+        },
+        "picture": {
+            "src": "",
+            "alt": ""
+        } 
+    }
+]

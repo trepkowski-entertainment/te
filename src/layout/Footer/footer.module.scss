@@ -1,0 +1,53 @@
+@import './../../vars/colors/colors.module.scss';
+@import './../../vars/colors/gradients.module.scss';
+@import './../../vars/fonts/fonts.module.scss';
+@import './../../vars/mediaQuery/mediaQuery.module.scss';
+@import './../../vars/vars/vars.module.scss';
+
+.foot__div {
+    width: 100%;
+    height: 80px;
+    background-color: $footerBackground;
+    // background-color: blanchedalmond;
+    display: flex;
+    // text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    // font-family: $fontThrd;
+}
+
+@media screen and (max-width: 559px) {
+    .foot__p {
+        text-align: center;
+        font-size: 12px;
+        max-width: 280px;
+        // color: brown;
+    }
+}
+    
+
+
+// .foot__list {
+//     // background-color: black;
+//     list-style: none;
+//     padding: 0;
+//     color: pink;
+//     display: flex;
+//     // flex-direction: column;
+//     gap: 20px;
+
+//     li {
+//         background-color: aquamarine;
+//         margin: 0 auto;
+//         // uwaga na magrin auto//
+//     }
+//     h4 {
+//         margin: 0;
+//     }
+//     p {
+//         margin: 0;
+//     }
+// }
+    
+    

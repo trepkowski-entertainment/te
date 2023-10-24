@@ -1,0 +1,16 @@
+{
+    "title": "Music Studio TE",
+    "subtitle": "Szkoła artystyczna on-line",
+    "paragraf": {
+        "head": "Kształcenia w zakresie:",
+        "li1":"Śpiewu - emisji głosu",
+        "li2":"Aktorstwa oraz recytacji",
+        "li3":"Zagadnień teoretycznych"
+    },
+    "modal" : {
+        "modalTitle": "Trepkowski Entertainment Music Studio",
+        "modalDescription": "Nasze Studio oferuje wiele zajęć i kursów dla amatorów muzyki, aktorstwa i śpiewu. Masz ochotę zgłębiać wiedzę muzyczną i aktorską nie wychodząc z domu? W naszej szkole zawsze znajdziesz coś dla siebie. Oferujemy kursy od podstaw, dla każdego kto chce uczyć się śpiewu, muzyki i aktorstwa on-line."
+    }
+    
+    
+}

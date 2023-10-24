@@ -1,0 +1,38 @@
+@import './../../vars/colors/colors.module.scss';
+@import './../../vars/colors/gradients.module.scss';
+@import './../../vars/fonts/fonts.module.scss';
+@import './../../vars/mediaQuery/mediaQuery.module.scss';
+@import './../../vars/vars/vars.module.scss';
+
+
+.musicStudio {
+  display: flex;
+  justify-content: center;
+}
+
+.btnClass {
+    background-image:$gradientSilver ;
+    width: 220px;
+    margin: 20px 0 40px 0;
+
+    padding: 10px;
+    border-radius: 20px;
+
+    color: white;
+    font-family: $fontFirst;
+    letter-spacing: 1px;
+    // font-weight: 700;
+}
+
+.instructorsContent {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+
+
+
+    @include tablet {
+        justify-content: space-between;
+    }
+}

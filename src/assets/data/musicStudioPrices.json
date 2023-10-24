@@ -1,0 +1,57 @@
+[
+    {
+        "title": "First cours",
+        "about1": {
+            "service": "Pakiet 10 godzin",
+            "units": "10 godzin",
+            "price": "600 zł."
+        },
+        "about2": {
+            "service": "Pakiet 20 godzin",
+            "units": "20 godzin",
+            "price": "900 zł."
+        },
+        "about3": {
+            "service": "Pakiet 30 godzin",
+            "units": "30 godzin",
+            "price": "1200 zł."
+        }
+    },
+    {
+        "title": "Second cours",
+        "about1": {
+            "service": "Poziom podstawowy",
+            "units": "50 godzin",
+            "price": "800 zł."
+        },
+        "about2": {
+            "service": "Poziom rozszerzony",
+            "units": "120 godzin",
+            "price": "1500 zł."
+        },
+        "about3": {
+            "service": "Open graduale",
+            "units": "50 godzin",
+            "price": "1200 zł."
+        }
+
+    },
+    {
+        "title": "Third cours",
+        "about1": {
+            "service": "Poziom podstawowy",
+            "units": "10 godzin",
+            "price": "600 zł."
+        },
+        "about2": {
+            "service": "Poziom średnio zaawansowany",
+            "units": "20 godzin",
+            "price": "900 zł."
+        },
+        "about3": {
+            "service": "Poziom zaawansowany",
+            "units": "30 godzin",
+            "price": "1200 zł."
+        }
+    }
+]

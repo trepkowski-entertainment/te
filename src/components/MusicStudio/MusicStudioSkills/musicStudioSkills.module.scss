@@ -1,0 +1,154 @@
+// @import './../../../global.module.scss';
+@import './../../../vars/colors/colors.module.scss';
+@import './../../../vars/colors/gradients.module.scss';
+@import './../../../vars/fonts/fonts.module.scss';
+@import './../../../vars/mediaQuery/mediaQuery.module.scss';
+@import './../../../vars/vars/vars.module.scss';
+
+
+.skills {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+
+
+    &__list {
+        background-color: cadetblue;
+        
+        list-style: none;
+        padding: 0;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        // justify-content: center;
+        
+        gap: 20px;
+        flex-wrap: wrap;
+
+        @include tablet {
+            justify-content: space-between;
+            gap: 10px;
+        }
+        @include desktop {
+            // display: grid;
+            gap: 60px;
+            grid-template-columns: repeat(4, 1fr); /* Dwie kolumny o równej szerokości */
+            grid-template-rows: repeat(2, auto); /* Dwie rzędy o automatycznej wysokości */
+           
+           
+        }
+        
+        
+    }
+
+
+
+    &__listEl {
+
+
+        position: relative;
+
+        display: flex;
+        justify-content: center;
+
+        background-color: bisque;
+        
+        text-align: center;
+
+        // margin-top: 30px;
+
+        width: 100px;
+
+        &:nth-child(1)  {
+            background-image: $gradientPastel;
+    
+        }
+        &:nth-child(2)  {
+            background-image: $gradientTurkus;
+    
+        }
+        &:nth-child(3)  {
+            background-image: $gradientGold;
+    
+        }
+        &:nth-child(4)  {
+            background-image: $gradientMint;
+    
+        }
+        &:nth-child(5)  {
+            background-image: $gradientSilver;
+    
+        }
+        &:nth-child(6)  {
+            background-image: $gradientDark;
+    
+        }
+        &:nth-child(7)  {
+            background-image: $gradientAmber;
+    
+        }
+        &:nth-child(8)  {
+            background-image: $gradientJedeit;
+    
+        }
+
+        
+
+        
+
+        @include tablet {
+            // margin: 10px 0;
+           
+        }
+
+        @include desktop {
+      
+            margin: 20px 0;
+            width: 160px;
+           
+        }        
+        
+
+    }
+
+    &__img {
+        position: absolute;
+        background-color: white;
+         border-radius: 50%;
+
+        width: 40px;
+        top: -20px;
+    }
+
+    &__listDiv {
+        // border: 2px solid black;
+        margin: 12px 5px 10px 5px;
+
+        color: white;
+        // width: 50px;
+        hyphens: auto;
+        // overflow-wrap: break-word;
+
+
+
+
+    }
+
+    &__listDivTitle {
+        font-size: 14px;
+        
+
+
+    }
+    
+
+    &__listDivAbout {
+        display: none;
+        font-size: 12px;
+
+        @include tablet {
+            display: block;
+        }
+
+    }
+}

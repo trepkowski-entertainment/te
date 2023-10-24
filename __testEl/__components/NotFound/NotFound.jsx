@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom"
 
 
 export const NotFound = () => {
@@ -11,7 +10,6 @@ export const NotFound = () => {
                 <a href="https://trepkowski-entertainment.github.io/te">
                     Trepkowski Entertainment</a>
             </p>
-            <Link to='/'>home</Link>
         </div>
     )
 }

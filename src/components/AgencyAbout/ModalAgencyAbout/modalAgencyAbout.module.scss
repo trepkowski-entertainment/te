@@ -1,0 +1,31 @@
+@import './../../../vars/colors/colors.module.scss';
+@import './../../../vars/colors/gradients.module.scss';
+@import './../../../vars/fonts/fonts.module.scss';
+@import './../../../vars/mediaQuery/mediaQuery.module.scss';
+@import './../../../vars/vars/vars.module.scss';
+
+
+.aboutOverlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: scroll;
+    z-index: 9;
+    
+  
+    &__content {
+        background-color: #f2f2f2;
+        padding: 20px;
+        border-radius: 5px;
+        font-family: $fontThrd;
+    }
+}
+
+
+

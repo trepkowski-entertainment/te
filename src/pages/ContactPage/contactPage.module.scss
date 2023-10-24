@@ -1,0 +1,12 @@
+
+
+.contact {
+  display: flex;
+  justify-content: center;
+
+  &__div {
+    margin-top: 20px;
+    display: grid;
+    gap: 20px;
+  }
+}

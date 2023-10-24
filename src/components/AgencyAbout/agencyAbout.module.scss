@@ -1,0 +1,62 @@
+@import './../../vars/colors/colors.module.scss';
+@import './../../vars/colors/gradients.module.scss';
+@import './../../vars/fonts/fonts.module.scss';
+@import './../../vars/mediaQuery/mediaQuery.module.scss';
+@import './../../vars/vars/vars.module.scss';
+
+
+.about {
+
+
+    &__box {
+
+        background-color: beige;
+        list-style: none;
+        padding: 0;
+
+        display: grid;
+        justify-content: center;
+        // grid-template-columns: repeat(4, 1fr);
+
+
+        &__element {
+
+            background-color: rgb(139, 139, 255);
+            color: #FFF;
+
+            width: 140px;
+
+            border-radius: 40px;
+            hyphens: auto;
+
+
+
+            
+
+
+            @include desktop {
+                width: 480px;
+                // height: 280px;
+            }
+
+            &__title {
+
+                @include desktop {
+                    margin: 40px;
+                }
+            }
+            &__des {
+
+                @include desktop {
+                    margin: 40px;
+                }
+            }
+            &__btn {
+
+                @include desktop {
+                    margin: 40px;
+                }
+            }
+        }
+    }
+}

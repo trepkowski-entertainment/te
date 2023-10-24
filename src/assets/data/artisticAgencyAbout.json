@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "title": "Śluby i Wesela z Dźwiękiem.",
+        "description": "Tworzymy magię ślubnych melodii, które towarzyszą Wam w jednym z najważniejszych dni Waszego życia. Nasza muzyka jest personalizowana, dostosowana do Waszych marzeń i stylu. Niezależnie od tego, czy marzycie o tradycyjnych utworach, czy bardziej nowoczesnych kompozycjach, jesteśmy gotowi uczynić Wasz dzień wyjątkowym.",
+        "modal": {
+            "title": "Tworzymy Magię Ślubnych Melodii. Twoje Wesele, Twoja Melodia. Dźwięki, które Śpiewają o Miłości.",
+            "description": "W naszej agencji artystycznej, wiemy, że muzyka ma moc tworzenia niezapomnianych chwil w dniu ślubu. Rozpocznij swoją wspólną podróż małżeństwa z nami, a my stworzymy magiczne dźwięki, które będą towarzyszyć Wam w tym wyjątkowym dniu. Nasza muzyka wywoła emocje, które pozostaną w Waszych sercach na zawsze. Każdy ślub jest wyjątkowy i niepowtarzalny. Dlatego pracujemy z parami młodymi, aby dostosować oprawę muzyczną do ich marzeń i osobistego stylu. Niezależnie od tego, czy marzysz o klasycznych utworach, czy bardziej współczesnych kompozycjach, jesteśmy gotowi uczynić Wasz dzień jeszcze bardziej wyjątkowym. Nasza agencja artystyczna to miejsce, gdzie muzyka jest w stanie wyrazić to, co słowom trudno opisać. Nasze koncerty na ślubach i weselach to nie tylko dźwięki, to opowieść o miłości, która trwa wiecznie. Pozwól nam stworzyć dla Was ścieżkę dźwiękową Waszej miłości."
+        }
+    },
+    {
+        "id": "2",
+        "title": "Pogrzeby - Uciszamy Ból, Śpiewając Pamięci.",
+        "description": "W trudnych chwilach po stracie ukochanej osoby, muzyka ma moc przynieść pocieszenie i wspomnienia. Nasza agencja specjalizuje się w organizacji oprawy muzycznej na pogrzebach, tworząc dźwięki, które oddają hołd życiu, które przeminęło. Nasza muzyka jest mostem między światami, przynosząc spokój i ukojenie.",
+        "modal": {
+            "title": "Godne Pożegnanie z Klasą i Muzyką. Dźwięki, Które Oddają Hołd",
+            "description": "Nasza agencja artystyczna specjalizuje się nie tylko w organizacji oprawy muzycznej na ślubach i weselach, ale również w godnym i pięknym pożegnaniu bliskich w trudnym czasie pogrzebów. Dla nas liczy się każdy szczegół, aby uczcić życie zmarłych i zapewnić wsparcie rodzinom. Nasza muzyka i oprawa muzyczna są hołdem dla życia i pamięci. Tworzymy dźwięki, które towarzyszą pożegnaniom i pozostają w sercach uczestników. Nasza agencja jest tutaj, aby pomóc w organizacji uroczystości, które oddają hołd życiu, niezależnie od wyznania."
+        }
+    },
+    {
+        "id": "3",
+        "title": "Świeckie Uroczystości Pogrzebowe i Współpraca z Zakładami Pogrzebowymi.",
+        "description": "Oferujemy organizację świeckich uroczystości pogrzebowych, które oddają życie zmarłych w godny sposób. Współpracujemy z zakładami pogrzebowymi, aby zapewnić kompleksową obsługę ceremonii pogrzebowych, włączając w to oprawę muzyczną. Nasza agencja to miejsce, gdzie muzyka i słowa składają hołd pamięci.",
+        "modal": {
+            "title": "Świeckie i Kościelne Uroczystości",
+            "description": "Oferujemy kompleksową organizację zarówno świeckich, jak i kościelnych uroczystości pogrzebowych. Nasza praca obejmuje przygotowanie oprawy muzycznej, jak również profesjonalne wsparcie w organizacji ceremonii pogrzebowych. Chcemy, aby każda uroczystość była wyjątkowa i oddawała charakter i życie zmarłych."
+        }
+    },
+    {
+        "id": "4",
+        "title": "Pomoc Prawna w Aktach Notarialnych.",
+        "description": "Dla par, które marzą o ślubach humanistycznych, świadczymy pomoc prawna w uzyskaniu aktu notarialnego równoważnego z aktem małżeństwa. Chcemy, aby Wasza miłość była oficjalnie uznana i uczciwie udokumentowana.",
+        "modal": {
+            "title": "Śluby Humanistyczne i Pomoc Prawna",
+            "description": "Specjalizujemy się w organizacji świeckich uroczystości ślubnych niezależnie od płci i wyznania. Jeśli marzysz o ślubie humanistycznym, jesteśmy tu, aby uczynić ten moment jeszcze bardziej wyjątkowym. Dodatkowo, świadczymy pomoc prawną w uzyskaniu aktu notarialnego równoważnego z aktem małżeństwa, aby Wasza miłość mogła być oficjalnie uznana."
+        }
+    }
+]

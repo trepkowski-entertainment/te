@@ -1,6 +1,6 @@
 
 import styles from './loaderStart.module.scss'
-import logo from './../header/Logo/logo-te.png'
+import logo from './../../assets/icons/logo-te.png'
 
 
 

@@ -1,0 +1,50 @@
+[
+    {
+        "id": "0",
+        "svg": "logo192.png",
+        "title": "Różnorodny repertuar",
+        "about": "test lorem test ipsum test"
+    },
+    {
+        "id": "1",
+        "svg": "logo192.png",
+        "title": "Czytanie nut głosem",
+        "about": "Lorem ipsum ipsum lorem fatale content, array noret loret."
+    },
+    {
+        "id": "2",
+        "svg": "logo192.png",
+        "title": "Techniki wokalne",
+        "about": "Lorem ipsum ipsum lorem fatale content, array noret loret."
+    },
+    {
+        "id": "3",
+        "svg": "logo192.png",
+        "title": "Najlepsi instruktorzy",
+        "about": "Lorem ipsum ipsum lorem fatale content, array noret loret."
+    },
+    {
+        "id": "4",
+        "svg": "logo192.png",
+        "title": "Indywidualne podejście",
+        "about": "Lorem ipsum ipsum lorem fatale content, array noret loret, operation sretro."
+    },
+    {
+        "id": "5",
+        "svg": "logo192.png",
+        "title": "Teoria muzyki",
+        "about": "Lorem ipsum ipsum lorem fatale content, array noret loret, operation sretro."
+    },
+    {
+        "id": "6",
+        "svg": "logo192.png",
+        "title": "Zajęcia aktorskie",
+        "about": "Lorem ipsum ipsum lorem fatale content, array noret loret, operation sretro."
+    },
+    {
+        "id": "7",
+        "svg": "logo192.png",
+        "title": "Opieka merytoryczna",
+        "about": "Lorem ipsum ipsum lorem fatale content, array noret loret, operation sretro."
+    }
+]

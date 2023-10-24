@@ -1,23 +1,28 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
+import { Provider } from 'react-redux';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import store from './redux/store/store'
+import './index.scss';
 
-import reportWebVitals from './reportWebVitals';
-import { AppTe } from './appTe';
+// import reportWebVitals from './reportWebVitals';
+import  App  from './App';
 // import { ContactPage } from './components/contactPage/contactPage';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <AppTe />
-    </BrowserRouter>
-  </React.StrictMode>
+        <BrowserRouter basename='te'>
+        <Provider store={store}>
+
+          <App />
+        </Provider>
+        </BrowserRouter>
+      </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// reportWebVitals();
