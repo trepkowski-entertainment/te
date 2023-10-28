@@ -1,4 +1,8 @@
-
+@import './../../../vars/colors/colors.module.scss';
+@import './../../../vars/colors/gradients.module.scss';
+@import './../../../vars/fonts/fonts.module.scss';
+@import './../../../vars/mediaQuery/mediaQuery.module.scss';
+@import './../../../vars/vars/vars.module.scss';
 
 .calendar {
 
@@ -6,9 +10,49 @@
     &__div {
         background-color: cornflowerblue;
 
-        width: 320px;
+        width: 100%;
 
         border-radius: 20px;
+
+        text-align: center;
+        @include desktop {
+            width: 100%;
+        }
+
+
+        &__title {}
+        &__cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+
+            @include desktop {
+                flex-direction: row;
+            }
+
+            &__card {
+                list-style: none;
+                padding: 0;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                background-color: rgb(69, 118, 207);
+                border-radius: 40px;
+
+                width: 280px;
+
+
+                &__element {
+
+
+                }
+            }
+        }
+
     }
 
 

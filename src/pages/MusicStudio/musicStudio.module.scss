@@ -24,6 +24,18 @@
     // font-weight: 700;
 }
 
+.coursesContent {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+
+    @include tablet {
+        justify-content: space-between;
+        gap: 0;
+    }
+}
+
 .instructorsContent {
     display: flex;
     justify-content: center;

@@ -4,8 +4,53 @@
         "title": "Simple vocal plan",
         "about": {
             "line1": "Indywidualnie dobierasz zajęcia",
-            "line2": "Indywidualnie dobierasz zajęcia",
-            "line3": "Indywidualnie dobierasz zajęcia"
+            "line2": "Indywidualnie ustalasz ilość zajęć",
+            "line3": "Śpiew, zadania aktorskie, teoria"
+        },
+        "modal": {
+            "title": "Pakiety zajęć indywidualnych (Simple Vocal Plan):",
+            "content": "Kurs Simple Plan to opcja stworzona dla osób ceniących sobie elastyczność. Oferujemy możliwość dostosowania planu zajęć do własnych potrzeb i celów. Studenci mogą wybierać spośród szerokiej gamy zajęć, w tym śpiewu, recytacji i interpretacji tekstu, zadań aktorskich oraz teorii muzyki. W ramach kursu możesz korzystać z pakietów godzinowych dostępnych na semestr lub rok.",
+            "price": "Pakiety godzinowe:",
+            "pax1": {
+                "pack": "point (semestralny)",
+                "hours": "1 godz.",
+                "cost": "70 zł"
+            },
+            "pax2": {
+                "pack": "four (semestralny)",
+                "hours": "4 godz.",
+                "cost": "280 zł."
+            },
+            "pax3": {
+                "pack": "optimal (semestralny)",
+                "hours": "8 godz.",
+                "cost": "560 zł"
+            },
+            "pax4": {
+                "pack": "classic (semestralny)",
+                "hours": "12 godz.",
+                "cost": "840 zł"
+            },
+            "pax5": {
+                "pack": "combo (semestralny)",
+                "hours": "20 godz. (8 + 12)",
+                "cost": "1400 zł"
+            },
+            "pax6": {
+                "pack": "lite (roczny)",
+                "hours": "24 godz.",
+                "cost": "1680 zł"
+            },
+            "pax7": {
+                "pack": "medium (roczny)",
+                "hours": "36 godz.",
+                "cost": "2520 zł"
+            },
+            "pax8": {
+                "pack": "intensive (roczny)",
+                "hours": "48 godz.",
+                "cost": "3360 zł"
+            }
         }
 
     },
@@ -13,9 +58,54 @@
         "svg": "logo192.png",
         "title": "Vocal experience",
         "about": {
-            "line1": "Zajęcia wokalne",
-            "line2": "Indywidualnie dobierasz zajęcia",
-            "line3": "Indywidualnie dobierasz zajęcia"
+            "line1": "Dwa semestry",
+            "line2": "Zajęcia ze śpiewu oraz zasad muzyki",
+            "line3": "cooooss"
+        },
+        "modal": {
+            "title": "Kurs wokalny (Vocal Course - Vocal Experience):",
+            "content": "Vocal Experience to dwusemestralny kurs, który daje głębsze zrozumienie i rozwijanie umiejętności muzycznych. Skoncentrowany na śpiewie, kształceniu słuchu i zasadach muzyki, ten kurs jest idealny dla tych, którzy chcą bardziej zaawansowanej nauki.",
+            "price": "Dwa semestry po 18 godzin na każdy.",
+            "pax1": {
+                "pack": "Pierwszy semestr - 18 godz.",
+                "hours": "10 - spiew, 8 - teoria ",
+                "cost": "xxx zł"
+            },
+            "pax2": {
+                "pack": "Drugi semestr - 18 godz.",
+                "hours": "12 - spiew, 6 - teoria",
+                "cost": "xxx zł"
+            },
+            "pax3": {
+                "pack": "",
+                "hours": "",
+                "cost": ""
+            },
+            "pax4": {
+                "pack": "",
+                "hours": "",
+                "cost": ""
+            },
+            "pax5": {
+                "pack": "",
+                "hours": "",
+                "cost": ""
+            },
+            "pax6": {
+                "pack": "",
+                "hours": "",
+                "cost": ""
+            },
+            "pax7": {
+                "pack": "",
+                "hours": "",
+                "cost": ""
+            },
+            "pax8": {
+                "pack": "",
+                "hours": "",
+                "cost": ""
+            }
         }
 
     },
@@ -23,9 +113,54 @@
         "svg": "logo192.png",
         "title": "Vocal artist",
         "about": {
-            "line1": "Kurs",
-            "line2": "Zajęcia aktorskie",
+            "line1": "Cztery semestry",
+            "line2": "Zajęcia ze śpiewu, interpretacji tekstu, zadań aktorskich oraz teorii muzyki",
             "line3": "Indywidualnie dobierasz zajęcia"
+        },
+        "modal": {
+            "title": "Kurs wokalno-aktorski (Vocal Artist - Vocal Academy):",
+            "content": "Kurs Vocal Artist to zaawansowana ścieżka edukacji muzycznej, która obejmuje całą gamę umiejętności wokalnych i aktorskich. Skoncentrowany na szerokim spektrum treści, ten kurs pozwala na osiągnięcie ////////najwyższego poziomu wykształcenia muzycznego///////////.",
+            "price": "Cztery semestry po 24 godziny na każdy.",
+            "pax1": {
+                "pack": "Pierwszy semestr - 24 godz.",
+                "hours": "12 - spiew, 4- zadania aktorskie, 8 - teoria ",
+                "cost": "xxx zł"
+            },
+            "pax2": {
+                "pack": "Drugi semestr - 24 godz.",
+                "hours": "14 - spiew, 4- zadania aktorskie, 6 - teoria ",
+                "cost": "xxx zł"
+            },
+            "pax3": {
+                "pack": "Trzeci semestr - 24 godz.",
+                "hours": "14 - spiew, 4- zadania aktorskie, 6 - teoria",
+                "cost": "xxx zł"
+            },
+            "pax4": {
+                "pack": "Czwarty semestr - 24 godz.",
+                "hours": "14 - spiew, 6- zadania aktorskie, 4 - teoria ",
+                "cost": "xxx zł"
+            },
+            "pax5": {
+                "pack": "",
+                "hours": "",
+                "cost": ""
+            },
+            "pax6": {
+                "pack": "",
+                "hours": "",
+                "cost": ""
+            },
+            "pax7": {
+                "pack": "",
+                "hours": "",
+                "cost": ""
+            },
+            "pax8": {
+                "pack": "",
+                "hours": "",
+                "cost": ""
+            }
         }
 
     }

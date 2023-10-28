@@ -1,26 +1,61 @@
-// @import './../../../../global.module.scss';
+@import './../../../../vars/colors/colors.module.scss';
+@import './../../../../vars/colors/gradients.module.scss';
+@import './../../../../vars/fonts/fonts.module.scss';
+@import './../../../../vars/mediaQuery/mediaQuery.module.scss';
+@import './../../../../vars/vars/vars.module.scss';
 
-.modalCourses_overlay {
+
+
+
+.modalCourses__overlay {
   z-index: 999;
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     align-items: center;
     justify-content: center;
+
+    // overflow: scroll;
   }
   
   .modalCourses__content {
     background-color: #f2f2f2;
     padding: 20px;
     border-radius: 5px;
-    // font-family: $fontThrd;
+    font-family: $fontThrd;
     // text-align:start;
+
+    overflow: scroll;
+
+    height: 100vh;
+
+    @include tablet {
+
+    }
+    @include desktop {
+      width: 60vw;
+    }
+
+  }
+  .modalCourses__content ul {
+    // background-color: darkgoldenrod;
+    list-style: none;
+    padding: 0;
+
+    // width: 100%;
+
+    display: grid;
+    grid-template-columns: 35% 35% 30%;
+    column-gap: 30px;
   }
 
+  .modalCourses__content li {
+    // background-color: blanchedalmond;
+  }
 
 
   .modalCourses__divBtn {

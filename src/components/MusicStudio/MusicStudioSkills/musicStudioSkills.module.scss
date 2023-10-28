@@ -14,27 +14,40 @@
 
     &__list {
         background-color: cadetblue;
+
+        width: 100%;
         
         list-style: none;
         padding: 0;
 
+        // display: flex;
+        // justify-content: space-between;
+
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        // justify-content: center;
+        // justify-content: space-between;
+        justify-items: center;
+
+        column-gap: 10px;
+        row-gap: 20px;
+
         
-        gap: 20px;
-        flex-wrap: wrap;
+        
+        // gap: 20px;
+        // flex-wrap: wrap;
 
         @include tablet {
             justify-content: space-between;
-            gap: 10px;
-        }
-        @include desktop {
-            // display: grid;
-            gap: 60px;
+            // row-gap: 10px;
             grid-template-columns: repeat(4, 1fr); /* Dwie kolumny o równej szerokości */
             grid-template-rows: repeat(2, auto); /* Dwie rzędy o automatycznej wysokości */
            
+        }
+        @include desktop {
+            // display: grid;
+            // gap: 60px;
+            row-gap: 0;
+            
            
         }
         
@@ -47,9 +60,12 @@
 
 
         position: relative;
+        overflow: hidden;
 
         display: flex;
+        // justify-items: center;
         justify-content: center;
+        align-items: center;
 
         background-color: bisque;
         
@@ -57,8 +73,7 @@
 
         // margin-top: 30px;
 
-        width: 100px;
-
+        
         &:nth-child(1)  {
             background-image: $gradientPastel;
     
@@ -92,19 +107,22 @@
     
         }
 
-        
+        width: 150px;
+        height: 120px;
+
 
         
 
         @include tablet {
             // margin: 10px 0;
+            width: 160px;
            
         }
 
         @include desktop {
       
             margin: 20px 0;
-            width: 160px;
+            width: 220px;
            
         }        
         
@@ -118,6 +136,8 @@
 
         width: 40px;
         top: -20px;
+
+
     }
 
     &__listDiv {
@@ -142,13 +162,51 @@
     }
     
 
-    &__listDivAbout {
-        display: none;
+   
+}
+
+//////////////////
+
+
+.overlay {
+
+    position: absolute;
+    background-color: $footerBackground;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    transform: translateX(-100%);
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    // overflow: scroll;
+
+    &__p {
+        // display: none;
+        font-size: 12px;
+        padding: 20px;
+
+        color: white;
+        font-family: $fontThrd;
         font-size: 12px;
 
-        @include tablet {
-            display: block;
-        }
 
+        @include tablet {
+            // display: block;
+        }
     }
+
+
+
 }
+
+.skills__listEl:hover .overlay {
+    transform: translateX(0);
+    // background-color: rgba(33, 150, 243, 0.9);
+    /* background-color: blueviolet; */
+}    

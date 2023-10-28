@@ -12,6 +12,7 @@
 # production
 /build
 /_testEl
+/_notes
 
 # misc
 .DS_Store

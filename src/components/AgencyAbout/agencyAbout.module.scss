@@ -16,6 +16,7 @@
 
         display: grid;
         justify-content: center;
+        // grid-template-columns: repeat(1, 1fr);
         // grid-template-columns: repeat(4, 1fr);
 
 
@@ -24,19 +25,26 @@
             background-color: rgb(139, 139, 255);
             color: #FFF;
 
-            width: 140px;
+            width: 320px;
+
+            // padding: 10px;
 
             border-radius: 40px;
             hyphens: auto;
 
-
-
-            
+            display: flex;
+            justify-content: center;            
 
 
             @include desktop {
                 width: 480px;
                 // height: 280px;
+            }
+
+            &__div {
+                width: 90%;
+                display: flex;
+                flex-direction: column;
             }
 
             &__title {
@@ -52,6 +60,8 @@
                 }
             }
             &__btn {
+                margin-bottom: 20px;
+
 
                 @include desktop {
                     margin: 40px;

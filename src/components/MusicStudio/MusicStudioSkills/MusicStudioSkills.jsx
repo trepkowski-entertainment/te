@@ -14,13 +14,16 @@ export const MusicStudioSkills = () => {
                 <li className={styles.skills__listEl}
                     key={item.id}
                     >
-                    <img className={styles.skills__img}
+                    {/* <img className={styles.skills__img}
                          src={require(`./../icons/${item.svg}`)}
                         alt=''
-                    />
+                    /> */}
                     <div className={styles.skills__listDiv}>
                         <h3 className={styles.skills__listDivTitle}>{item.title}</h3>
-                        <p className={styles.skills__listDivAbout}>{item.about}</p>
+                        
+                    </div>
+                    <div className={styles.overlay}>
+                        <p className={styles.overlay__p}>{item.about}</p>
                     </div>
                 </li>
                 ))}

@@ -7,6 +7,7 @@ import {MusicStudioEquipment} from './../../components/MusicStudio/MusicStudioEq
 import {MusicStudioInstructors} from './../../components/MusicStudio/MusicStudioInstructors/MusicStudioInstructors'
 import MusicStudioCalendar from './../../components/MusicStudio/MusicStudioCalendar/MusicStudioCalendar'
 
+import musicStudioCourses from './../../assets/data/musicStudioCourses.json'
 import temsSquad from './../../assets/data/temsSquad.json'
 import musicStudioPrices from './../../assets/data/musicStudioPrices.json'
 
@@ -21,8 +22,43 @@ const MusicStudio = () => {
                     </div>
                     <div>
                         <h2 className={styles.btnClass}>Nasz program</h2>
-                        {/* // mapowanie i propsy ///  */}
-                        <MusicStudioCourses />
+                        <div className={styles.coursesContent}>
+                        {musicStudioCourses.map((item) => (
+                            <MusicStudioCourses 
+                            title={item.title}
+                            aboutLine1={item.about.line1}
+                            aboutLine2={item.about.line2}
+                            aboutLine3={item.about.line3}
+                            modalTitle={item.modal.title}
+                            modalContent={item.modal.content}
+                            modalPrice={item.modal.price}
+                            pack1={item.modal.pax1.pack}
+                            hours1={item.modal.pax1.hours}
+                            cost1={item.modal.pax2.cost}
+                            pack2={item.modal.pax2.pack}
+                            hours2={item.modal.pax2.hours}
+                            cost2={item.modal.pax3.cost}
+                            pack3={item.modal.pax3.pack}
+                            hours3={item.modal.pax3.hours}
+                            cost3={item.modal.pax3.cost}
+                            pack4={item.modal.pax4.pack}
+                            hours4={item.modal.pax4.hours}
+                            cost4={item.modal.pax4.cost}
+                            pack5={item.modal.pax5.pack}
+                            hours5={item.modal.pax5.hours}
+                            cost5={item.modal.pax5.cost}
+                            pack6={item.modal.pax6.pack}
+                            hours6={item.modal.pax6.hours}
+                            cost6={item.modal.pax6.cost}
+                            pack7={item.modal.pax7.pack}
+                            hours7={item.modal.pax7.hours}
+                            cost7={item.modal.pax7.cost}
+                            pack8={item.modal.pax8.pack}
+                            hours8={item.modal.pax8.hours}
+                            cost8={item.modal.pax8.cost}
+                            />
+                            ))}
+                        </div>
                     </div>
                     <div>
                         <h3 className={styles.btnClass}>Instruktorzy</h3>
@@ -36,7 +72,7 @@ const MusicStudio = () => {
                             live={item.description.live}
                             
                             />
-                        ))}
+                            ))}
                         </div>
                     </div>
                     {/* <div>
@@ -53,7 +89,7 @@ const MusicStudio = () => {
                         <p>niezbedne informacje - requipment</p>
                         <h3>Cennik</h3>
                     </div>
-                    <div>
+                    {/* <div>
                         {musicStudioPrices.map((item) => (
                             <div>
                                 <img 
@@ -70,7 +106,7 @@ const MusicStudio = () => {
                                 </div>
                             </div>
                          ))}
-                    </div>
+                    </div> */}
                 </div>
             </Container>
         </section>

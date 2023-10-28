@@ -10,7 +10,9 @@ const AgencyServices = () => {
                 {agencyServData.map((item) => (
                     <li className={styles.services__box__element}>
                         <h3 className={styles.services__box__element__title}>{item.title}</h3>
-                        <p className={styles.services__box__element__paragraf}>{item.paragraf}</p>
+                        <div className={styles.services__box__element__title__overlay}>
+                            <p className={styles.services__box__element__title__overlay__paragraf}>{item.paragraf}</p>
+                        </div>
                     </li>
                 ))}
             </ul>
